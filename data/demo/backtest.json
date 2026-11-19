@@ -1,0 +1,376 @@
+{
+  "label": "SIMULATED \u2014 NOT VALIDATED ON CLINIC DATA",
+  "evidence_level": "SYNTHETIC_DEMO",
+  "version": "daily-v1.0",
+  "cutoff": "2026-11-18",
+  "coverage": 63,
+  "horizon": 12,
+  "history": [
+    {
+      "date": "2026-09-17",
+      "qty": 11
+    },
+    {
+      "date": "2026-09-18",
+      "qty": 11
+    },
+    {
+      "date": "2026-09-19",
+      "qty": 9
+    },
+    {
+      "date": "2026-09-20",
+      "qty": 9
+    },
+    {
+      "date": "2026-09-21",
+      "qty": 9
+    },
+    {
+      "date": "2026-09-22",
+      "qty": 10
+    },
+    {
+      "date": "2026-09-23",
+      "qty": 9
+    },
+    {
+      "date": "2026-09-24",
+      "qty": 11
+    },
+    {
+      "date": "2026-09-25",
+      "qty": 11
+    },
+    {
+      "date": "2026-09-26",
+      "qty": 9
+    },
+    {
+      "date": "2026-09-27",
+      "qty": 9
+    },
+    {
+      "date": "2026-09-28",
+      "qty": 9
+    },
+    {
+      "date": "2026-09-29",
+      "qty": 9
+    },
+    {
+      "date": "2026-09-30",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-01",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-02",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-03",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-04",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-05",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-06",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-07",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-08",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-09",
+      "qty": 12
+    },
+    {
+      "date": "2026-10-10",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-11",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-12",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-13",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-14",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-15",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-16",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-17",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-18",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-19",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-20",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-21",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-22",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-23",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-24",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-25",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-26",
+      "qty": 10
+    },
+    {
+      "date": "2026-10-27",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-28",
+      "qty": 9
+    },
+    {
+      "date": "2026-10-29",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-30",
+      "qty": 11
+    },
+    {
+      "date": "2026-10-31",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-01",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-02",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-03",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-04",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-05",
+      "qty": 11
+    },
+    {
+      "date": "2026-11-06",
+      "qty": 11
+    },
+    {
+      "date": "2026-11-07",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-08",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-09",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-10",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-11",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-12",
+      "qty": 12
+    },
+    {
+      "date": "2026-11-13",
+      "qty": 11
+    },
+    {
+      "date": "2026-11-14",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-15",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-16",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-17",
+      "qty": 9
+    },
+    {
+      "date": "2026-11-18",
+      "qty": 9
+    }
+  ],
+  "scores": [
+    {
+      "model": "naive",
+      "mae": 0.8571,
+      "wape": 0.0882,
+      "smape": 0.0818,
+      "bias": 0.0,
+      "shortage_units": 3
+    },
+    {
+      "model": "weekly naive",
+      "mae": 0.1429,
+      "wape": 0.0147,
+      "smape": 0.0124,
+      "bias": -0.1429,
+      "shortage_units": 1
+    },
+    {
+      "model": "trailing mean",
+      "mae": 1.0,
+      "wape": 0.1029,
+      "smape": 0.1002,
+      "bias": -0.0816,
+      "shortage_units": 3.79
+    },
+    {
+      "model": "trailing median",
+      "mae": 0.7143,
+      "wape": 0.0735,
+      "smape": 0.0694,
+      "bias": -0.7143,
+      "shortage_units": 5.0
+    },
+    {
+      "model": "exponential smoothing",
+      "mae": 1.0638,
+      "wape": 0.1095,
+      "smape": 0.1065,
+      "bias": -0.0164,
+      "shortage_units": 3.78
+    }
+  ],
+  "points": [
+    {
+      "date": "2026-11-12",
+      "actual": 12,
+      "prediction": 11
+    },
+    {
+      "date": "2026-11-13",
+      "actual": 11,
+      "prediction": 11
+    },
+    {
+      "date": "2026-11-14",
+      "actual": 9,
+      "prediction": 9
+    },
+    {
+      "date": "2026-11-15",
+      "actual": 9,
+      "prediction": 9
+    },
+    {
+      "date": "2026-11-16",
+      "actual": 9,
+      "prediction": 9
+    },
+    {
+      "date": "2026-11-17",
+      "actual": 9,
+      "prediction": 9
+    },
+    {
+      "date": "2026-11-18",
+      "actual": 9,
+      "prediction": 9
+    }
+  ],
+  "future": [
+    12,
+    11,
+    9,
+    9,
+    9,
+    9,
+    9,
+    12,
+    11,
+    9,
+    9,
+    9
+  ],
+  "prediction_interval": null,
+  "shortage_probability": null,
+  "chosen": "weekly naive",
+  "calculation_id": "9b5bb397ee720602",
+  "reason": "Lowest one-day MAE on preceding validation origins; ties prefer the simpler baseline.",
+  "selection_end": "2026-11-11",
+  "holdout_start": "2026-11-12",
+  "validation_mae": {
+    "naive": 0.5714285714285714,
+    "weekly naive": 0.07142857142857142,
+    "trailing mean": 0.8367346938775508,
+    "trailing median": 0.5714285714285714,
+    "exponential smoothing": 0.876802623728208
+  },
+  "config": {
+    "window": 14,
+    "alpha": 0.3,
+    "weekly_lag": 7
+  },
+  "branch": "Riyadh East",
+  "sku": "Nitrile gloves"
+}

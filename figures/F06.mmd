@@ -1,0 +1,12 @@
+flowchart TD
+  A{"At least 35 consecutive closed days?"} -->|No| U["Manual count review; probability unavailable"]
+  A -->|Yes| B["Compare simple baselines on earlier validation dates"]
+  B --> C["Score later rolling origins"]
+  C --> D["Compute lead-time forecast plus disclosed safety buffer"]
+  D --> E{"Inventory position at or below threshold?"}
+  E -->|No| M["Monitor position"]
+  E -->|Yes| F["Target minus position; pack, MOQ and capacity"]
+  F --> G{"Candidate meets size and validity constraints?"}
+  G -->|Yes| H["Human approval and local order record"]
+  G -->|No| R["Review policy constraints"]
+

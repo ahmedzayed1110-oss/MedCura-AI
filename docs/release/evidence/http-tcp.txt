@@ -1,0 +1,11 @@
+test_branch_scope (tests.test_api.HTTP.test_branch_scope) ... ok
+test_csv_and_path_guards (tests.test_api.HTTP.test_csv_and_path_guards) ... ok
+test_health_auth_and_origin (tests.test_api.HTTP.test_health_auth_and_origin) ... ok
+test_idempotent_write_and_tenant_isolation (tests.test_api.HTTP.test_idempotent_write_and_tenant_isolation) ... ok
+test_market_endpoints_and_lineage (tests.test_api.HTTP.test_market_endpoints_and_lineage) ... ok
+test_transfer_receipt_replay (tests.test_api.HTTP.test_transfer_receipt_replay) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.420s
+
+OK

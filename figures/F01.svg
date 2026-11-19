@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1080" height="660" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1080 660" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="medcura-title medcura-desc"><title id="medcura-title">Where private medical complexes are located</title><desc id="medcura-desc">All 13 administrative regions. Counts describe facility locations. The workbook cites MOH statistics.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1080" height="660"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-660)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1080" height="660" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,97%,95%); fill-rule: evenodd;"/>
+			<text x="48" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,1232) scale(1,-1)">MEDCURA AI   /   RESEARCH FIGURES</text>
+			<text x="848.505" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1232) scale(1,-1)">F01    /    OBSERVED_PUBLIC</text>
+			<path d="M 48,599 L 1032,599 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="548" style="font-family: Times-Bold; font-size: 43px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,1096) scale(1,-1)">Where private medical complexes are located</text>
+			<text x="48" y="512" style="font-family: Helvetica; font-size: 19px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1024) scale(1,-1)">Private complexes by Saudi administrative region, 2024. Teal marks the three largest counts.</text>
+			<path d="M 48,55 L 1032,55 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="25" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,50) scale(1,-1)">Workbook A, 01 Facilities!A5:H18 (2024).</text>
+			<path d="M 250,487 L 250,97 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="245.83" y="73" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,146) scale(1,-1)">0</text>
+			<path d="M 366.666667,487 L 366.666667,97 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="354.1566666666667" y="73" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,146) scale(1,-1)">200</text>
+			<path d="M 483.333333,487 L 483.333333,97 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="470.8233333333334" y="73" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,146) scale(1,-1)">400</text>
+			<path d="M 600,487 L 600,97 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="587.49" y="73" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,146) scale(1,-1)">600</text>
+			<path d="M 716.666667,487 L 716.666667,97 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="704.1566666666668" y="73" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,146) scale(1,-1)">800</text>
+			<path d="M 833.333333,487 L 833.333333,97 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="814.5683333333334" y="73" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,146) scale(1,-1)">1,000</text>
+			<path d="M 950,487 L 950,97 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="931.235" y="73" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,146) scale(1,-1)">1,200</text>
+			<text x="177.98399999999998" y="465" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,930) scale(1,-1)">Riyadh</text>
+			<rect x="250" y="462" width="683.0833333333334" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="942.0833333333334" y="465" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,930) scale(1,-1)">1,171</text>
+			<text x="170.982" y="436" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,872) scale(1,-1)">Makkah</text>
+			<rect x="250" y="433" width="513.3333333333334" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="772.3333333333334" y="436" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,872) scale(1,-1)">880</text>
+			<text x="96.94800000000001" y="407" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,814) scale(1,-1)">Eastern Province</text>
+			<rect x="250" y="404" width="277.66666666666674" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="536.6666666666667" y="407" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,814) scale(1,-1)">476</text>
+			<text x="203.004" y="378" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,756) scale(1,-1)">Asir</text>
+			<rect x="250" y="375" width="148.75" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="407.75" y="378" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,756) scale(1,-1)">255</text>
+			<text x="164.97" y="349" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,698) scale(1,-1)">Madinah</text>
+			<rect x="250" y="346" width="106.16666666666669" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="365.1666666666667" y="349" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,698) scale(1,-1)">182</text>
+			<text x="172.998" y="320" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,640) scale(1,-1)">Qassim</text>
+			<rect x="250" y="317" width="85.16666666666669" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="344.1666666666667" y="320" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,640) scale(1,-1)">146</text>
+			<text x="185.976" y="291" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,582) scale(1,-1)">Jazan</text>
+			<rect x="250" y="288" width="74.66666666666669" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="333.6666666666667" y="291" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,582) scale(1,-1)">128</text>
+			<text x="183.978" y="262" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,524) scale(1,-1)">Tabuk</text>
+			<rect x="250" y="259" width="49.0" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="308.0" y="262" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,524) scale(1,-1)">84</text>
+			<text x="203.004" y="233" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,466) scale(1,-1)">Hail</text>
+			<rect x="250" y="230" width="42.583333333333314" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="301.5833333333333" y="233" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,466) scale(1,-1)">73</text>
+			<text x="177.98399999999998" y="204" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,408) scale(1,-1)">Al-Jouf</text>
+			<rect x="250" y="201" width="33.833333333333314" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="292.8333333333333" y="204" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,408) scale(1,-1)">58</text>
+			<text x="180.99" y="175" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,350) scale(1,-1)">Najran</text>
+			<rect x="250" y="172" width="32.666666666666686" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="291.6666666666667" y="175" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,350) scale(1,-1)">56</text>
+			<text x="169.974" y="146" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,292) scale(1,-1)">Al-Baha</text>
+			<rect x="250" y="143" width="28.583333333333314" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="287.5833333333333" y="146" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,292) scale(1,-1)">49</text>
+			<text x="95.958" y="117" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,234) scale(1,-1)">Northern Borders</text>
+			<rect x="250" y="114" width="28.583333333333314" height="18" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(56%,66%,70%); fill-rule: evenodd;"/>
+			<text x="287.5833333333333" y="117" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,234) scale(1,-1)">49</text>
+		</g>
+	</g>
+</svg>

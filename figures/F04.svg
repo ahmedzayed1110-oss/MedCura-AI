@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1080" height="660" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1080 660" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="medcura-title medcura-desc"><title id="medcura-title">Tracing a number back to its source</title><desc id="medcura-desc">Users can follow a regional total through its contributing cells. A regional insurance allocation appears only with scenario evidence.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1080" height="660"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-660)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1080" height="660" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,97%,95%); fill-rule: evenodd;"/>
+			<text x="48" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,1232) scale(1,-1)">MEDCURA AI   /   RESEARCH FIGURES</text>
+			<text x="919.29" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1232) scale(1,-1)">F04    /    DERIVED</text>
+			<path d="M 48,599 L 1032,599 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="548" style="font-family: Times-Bold; font-size: 43px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,1096) scale(1,-1)">Tracing a number back to its source</text>
+			<text x="48" y="512" style="font-family: Helvetica; font-size: 19px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1024) scale(1,-1)">The two workbooks may agree on a value while using a different definition or period.</text>
+			<path d="M 48,55 L 1032,55 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="25" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,50) scale(1,-1)">Source reconciliation design. See data/source_manifest.json and the conflict register.</text>
+			<rect x="48" y="357" width="270" height="106" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="48" y="357" width="4" height="106" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="63" y="433" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,866) scale(1,-1)">Record provenance</text>
+			<text x="63" y="406" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,812) scale(1,-1)">File hash, sheet, cell, value</text>
+			<text x="63" y="383" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,766) scale(1,-1)">and reporting period.</text>
+			<rect x="405" y="357" width="270" height="106" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<rect x="405" y="357" width="4" height="106" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="420" y="433" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,866) scale(1,-1)">Compare definitions</text>
+			<text x="420" y="406" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,812) scale(1,-1)">Check population, unit,</text>
+			<text x="420" y="383" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,766) scale(1,-1)">geography and method.</text>
+			<rect x="762" y="357" width="270" height="106" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="762" y="357" width="4" height="106" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="777" y="433" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,866) scale(1,-1)">Publish lineage</text>
+			<text x="777" y="406" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,812) scale(1,-1)">Preserve the observation and</text>
+			<text x="777" y="383" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,766) scale(1,-1)">every derived formula.</text>
+			<path d="M 318,407 L 404,407 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="404 407, 395 411, 395 403" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<path d="M 675,407 L 761,407 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="761 407, 752 411, 752 403" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<path d="M 540,357 L 540,315 Z" style="stroke: rgb(57%,35%,9%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="540 315, 544 324, 536 324" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(57%,35%,9%); fill-rule: evenodd;"/>
+			<rect x="405" y="188" width="270" height="125" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="405" y="188" width="4" height="125" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="420" y="283" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,566) scale(1,-1)">Conflicting claim</text>
+			<text x="420" y="256" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,512) scale(1,-1)">Quarantine an allocation or</text>
+			<text x="420" y="233" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,466) scale(1,-1)">unverifiable price. Retain</text>
+			<text x="420" y="210" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,420) scale(1,-1)">missing values.</text>
+			<path d="M 675,254 L 760,254 Z" style="stroke: rgb(57%,35%,9%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="760 254, 751 258, 751 250" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(57%,35%,9%); fill-rule: evenodd;"/>
+			<rect x="762" y="188" width="270" height="125" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="762" y="188" width="4" height="125" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="777" y="283" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,566) scale(1,-1)">Record decision</text>
+			<text x="777" y="256" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,512) scale(1,-1)">Show competing source cells</text>
+			<text x="777" y="233" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,466) scale(1,-1)">and the reason for their</text>
+			<text x="777" y="210" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,420) scale(1,-1)">treatment.</text>
+			<text x="48" y="124" style="font-family: Helvetica; font-size: 21px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,248) scale(1,-1)">Example: Workbook B allocates insurance by weighted facility and population shares. The regional</text>
+			<text x="48" y="95" style="font-family: Helvetica; font-size: 21px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,190) scale(1,-1)">values enter the scenario register.</text>
+		</g>
+	</g>
+</svg>

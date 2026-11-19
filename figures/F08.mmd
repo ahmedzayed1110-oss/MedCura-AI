@@ -1,0 +1,9 @@
+flowchart LR
+  A["Authorize records and preregister scope"] --> B["Baseline observation"]
+  B --> C["Silent reconciliation and forecast comparison"]
+  C --> D["Reviewed alerts and logged actions"]
+  D --> E{"Comparable windows and adequate coverage?"}
+  E -->|Yes| F["Report pre/post association and uncertainty"]
+  E -->|No| G["Collect additional observations or revise protocol"]
+  F --> H["Document staffing, season, supplier and censoring changes"]
+

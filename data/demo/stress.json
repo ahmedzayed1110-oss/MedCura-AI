@@ -1,0 +1,59 @@
+{
+  "evidence_level": "SYNTHETIC_DEMO",
+  "as_of": "2026-11-19",
+  "label": "Software stress cases on generated issues",
+  "lead_delay": {
+    "before_point": 55,
+    "after_point": 110
+  },
+  "demand_spike": {
+    "before": {
+      "model": "weekly naive",
+      "mae": 0.1429,
+      "wape": 0.0147,
+      "smape": 0.0124,
+      "bias": -0.1429,
+      "shortage_units": 1
+    },
+    "after": {
+      "model": "weekly naive",
+      "mae": 4.0,
+      "wape": 0.2947,
+      "smape": 0.1839,
+      "bias": -4.0,
+      "shortage_units": 28
+    }
+  },
+  "missing_scan": {
+    "fallback": true,
+    "coverage": 1
+  },
+  "return_quarantine": {
+    "physical": 7,
+    "available": 0
+  },
+  "short_shelf_life_rejected": true,
+  "redistribution": {
+    "limit": 106,
+    "net_minor": 11520,
+    "unit_minor": 120,
+    "origin_excess": 106,
+    "safety_surplus": 350,
+    "destination_deficit": 111,
+    "consumable": 145,
+    "life_days": 19,
+    "buffer_days": 2,
+    "notes": "Scenario assumes stable daily usage, linear sell-through and no incremental handling or shortage cost beyond the quoted all-in freight."
+  },
+  "policy_comparison": {
+    "fixed threshold 25 / fixed order 100": {
+      "shortage_units": 27,
+      "unit_days_held": 471
+    },
+    "rolling demand reorder policy": {
+      "shortage_units": 9,
+      "unit_days_held": 518
+    }
+  },
+  "assumptions": "14 simulated days; initial stock 40; 5-day deterministic supply lead; lost demand; zero backorders; integer items. No costs validated."
+}

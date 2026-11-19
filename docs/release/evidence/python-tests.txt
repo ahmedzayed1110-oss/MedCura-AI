@@ -1,0 +1,53 @@
+test_branch_scope (test_api.HTTP.test_branch_scope) ... ok
+test_csv_and_path_guards (test_api.HTTP.test_csv_and_path_guards) ... ok
+test_health_auth_and_origin (test_api.HTTP.test_health_auth_and_origin) ... ok
+test_idempotent_write_and_tenant_isolation (test_api.HTTP.test_idempotent_write_and_tenant_isolation) ... ok
+test_market_endpoints_and_lineage (test_api.HTTP.test_market_endpoints_and_lineage) ... ok
+test_transfer_receipt_replay (test_api.HTTP.test_transfer_receipt_replay) ... ok
+test_repeatable_interventions (test_bench.StressBench.test_repeatable_interventions) ... ok
+test_cancel_releases_and_invalid_transport (test_inventory.Inventory.test_cancel_releases_and_invalid_transport) ... ok
+test_catalog_cold_start_and_reseed (test_inventory.Inventory.test_catalog_cold_start_and_reseed) ... ok
+test_count_and_reservation (test_inventory.Inventory.test_count_and_reservation) ... ok
+test_demo_ledger_survives_database_reopen (test_inventory.Inventory.test_demo_ledger_survives_database_reopen) ... ok
+test_expiry_quarantine_and_null (test_inventory.Inventory.test_expiry_quarantine_and_null) ... ok
+test_negative_stock_concurrent (test_inventory.Inventory.test_negative_stock_concurrent) ... ok
+test_order_receipt_and_stale_recommendation (test_inventory.Inventory.test_order_receipt_and_stale_recommendation) ... ok
+test_receive_pack_and_fefo (test_inventory.Inventory.test_receive_pack_and_fefo) ... ok
+test_transfer_conservation_and_incoming (test_inventory.Inventory.test_transfer_conservation_and_incoming) ... ok
+test_validation_and_immutable_ledger (test_inventory.Inventory.test_validation_and_immutable_ledger) ... ok
+test_blank_and_fractional_counts_rejected (test_market.MarketEvidenceTests.test_blank_and_fractional_counts_rejected) ... ok
+test_canonical_sums_pareto_and_density (test_market.MarketEvidenceTests.test_canonical_sums_pareto_and_density) ... ok
+test_competitor_price_and_no_deployments_as_facts (test_market.MarketEvidenceTests.test_competitor_price_and_no_deployments_as_facts) ... ok
+test_csv_export_and_source_comparator (test_market.MarketEvidenceTests.test_csv_export_and_source_comparator) ... ok
+test_hashes_and_document_extraction (test_market.MarketEvidenceTests.test_hashes_and_document_extraction) ... ok
+test_lineage_points_to_snapshot_cells_and_preserves_units (test_market.MarketEvidenceTests.test_lineage_points_to_snapshot_cells_and_preserves_units) ... ok
+test_period_definition_and_pdf_conflicts (test_market.MarketEvidenceTests.test_period_definition_and_pdf_conflicts) ... ok
+test_regional_allocation_and_missing_observations (test_market.MarketEvidenceTests.test_regional_allocation_and_missing_observations) ... ok
+test_regions_and_years_against_both_original_workbooks (test_market.MarketEvidenceTests.test_regions_and_years_against_both_original_workbooks) ... ok
+test_renamed_duplicate_and_missing_region_rejected (test_market.MarketEvidenceTests.test_renamed_duplicate_and_missing_region_rejected) ... ok
+test_complete_paired_figures (test_presentation.PresentationAssets.test_complete_paired_figures) ... ok
+test_deck_source_and_notes (test_presentation.PresentationAssets.test_deck_source_and_notes) ... ok
+test_report_has_five_pages (test_presentation.PresentationAssets.test_report_has_five_pages) ... ok
+test_holdout_changes_never_leak (test_science.DecisionScience.test_holdout_changes_never_leak) ... ok
+test_missing_close_and_short_series (test_science.DecisionScience.test_missing_close_and_short_series) ... ok
+test_threshold_rounding_capacity_and_lead_delay (test_science.DecisionScience.test_threshold_rounding_capacity_and_lead_delay) ... ok
+test_churn_precedes_new_billable_branches (test_study.Economics.test_churn_precedes_new_billable_branches) ... ok
+test_funnel_and_timing (test_study.Economics.test_funnel_and_timing) ... ok
+test_invalid_inputs (test_study.Economics.test_invalid_inputs) ... ok
+test_tenant_visibility_and_write_permissions (test_study.Economics.test_tenant_visibility_and_write_permissions) ... ok
+test_zero_conversions_and_negative_contribution (test_study.Economics.test_zero_conversions_and_negative_contribution) ... ok
+test_authority_and_attestation_required (test_study.Pilot.test_authority_and_attestation_required) ... ok
+test_confounding_flags_force_review (test_study.Pilot.test_confounding_flags_force_review) ... ok
+test_demo_is_never_field_eligible (test_study.Pilot.test_demo_is_never_field_eligible) ... ok
+test_denominators_gate_and_import_audit (test_study.Pilot.test_denominators_gate_and_import_audit) ... ok
+test_duplicate_import_and_overlap_are_atomic (test_study.Pilot.test_duplicate_import_and_overlap_are_atomic) ... ok
+test_empty_status_is_not_measured (test_study.Pilot.test_empty_status_is_not_measured) ... ok
+test_followup_review_keeps_original_design (test_study.Pilot.test_followup_review_keeps_original_design) ... ok
+test_incorrect_header_dates_counts_type_and_limits (test_study.Pilot.test_incorrect_header_dates_counts_type_and_limits) ... ok
+test_missing_scope_and_comparison_are_withheld (test_study.Pilot.test_missing_scope_and_comparison_are_withheld) ... ok
+test_preregistered_disjoint_windows (test_study.Pilot.test_preregistered_disjoint_windows) ... ok
+
+----------------------------------------------------------------------
+Ran 48 tests in 19.530s
+
+OK

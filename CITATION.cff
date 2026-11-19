@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: Cite this research prototype with the release tag and commit.
+title: MedCura AI
+type: software
+version: 1.0.0-research-prototype
+authors:
+  - name: MedCura AI project
+abstract: Reproducible inventory software demonstration and evidence audit for private medical complexes in Saudi Arabia.
+

@@ -1,0 +1,9 @@
+scope,original,release,verification
+Complete prior tree,128 file backup,BEFORE_AFTER.csv,Byte comparison to original ZIP
+Research figures,figures/F01–F11,results/figures/F01–F12,"SVG XML, PNG dpi, PDF, contact sheet"
+Market evidence,data/processed,results/tables/T01–T03,Raw input regeneration and hash parity
+Forecast and scenarios,data/demo,experiments/runs and T04–T08,Recomputed from fixed software fixtures
+Prototype,apps and run.py,apps and run.py,Python plus browser TCP and pipe
+Deck,presentation/MedCura_AI_Datathon.pptx,presentation/MedCura_AI_Datathon_Research_Edition.pptx,10 original slide parts byte-identical
+Report,presentation/MedCura_AI_Research_Report.pdf,reports/MedCura_AI_Research_Report_with_Appendix.pdf,5 original pages and 6 figures
+Software evidence,docs and tests,docs/release/evidence,Current command logs

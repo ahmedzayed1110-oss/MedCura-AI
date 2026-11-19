@@ -1,0 +1,8 @@
+{
+  "name":"medcura-ai-local-verification",
+  "version":"1.0.0",
+  "private":true,
+  "scripts":{"test:e2e":"node tests/e2e.cjs","check":"node --check apps/web/app.js && node --check apps/web/study.js"},
+  "devDependencies":{"playwright":"1.62.1"}
+}
+

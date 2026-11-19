@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1080" height="660" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1080 660" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="medcura-title medcura-desc"><title id="medcura-title">Three decisions before wider rollout</title><desc id="medcura-desc">The region sequence follows the supplied strategic guide. Funding, signed partners, staff capacity and measured results are future decisions.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1080" height="660"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-660)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1080" height="660" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,97%,95%); fill-rule: evenodd;"/>
+			<text x="48" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,1232) scale(1,-1)">MEDCURA AI   /   RESEARCH FIGURES</text>
+			<text x="908.461" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1232) scale(1,-1)">F09    /    SCENARIO</text>
+			<path d="M 48,599 L 1032,599 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="548" style="font-family: Times-Bold; font-size: 43px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,1096) scale(1,-1)">Three decisions before wider rollout</text>
+			<text x="48" y="512" style="font-family: Helvetica; font-size: 19px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1024) scale(1,-1)">Each year is a planning window. A missed condition can pause or redirect the next phase.</text>
+			<path d="M 48,55 L 1032,55 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="25" style="font-family: Helvetica; font-size: 14.487632508833922px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,50) scale(1,-1)">Supplied Arabic presentation guide and research blueprint, November 2026. Expansion is conditional on measured operational and commercial evidence.</text>
+			<text x="48" y="433" style="font-family: Times-Bold; font-size: 34px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,866) scale(1,-1)">2027</text>
+			<text x="166" y="437" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,874) scale(1,-1)">Riyadh</text>
+			<text x="166" y="405" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,810) scale(1,-1)">Run a one-branch trial. Record eligible</text>
+			<text x="166" y="381" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,762) scale(1,-1)">item-days and the cost of onboarding.</text>
+			<text x="596" y="437" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,874) scale(1,-1)">Proceed after usable data, safe reconciliation</text>
+			<text x="596" y="411" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,822) scale(1,-1)">and an agreed KPI review.</text>
+			<path d="M 48,353 L 1032,353 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="298" style="font-family: Times-Bold; font-size: 34px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,596) scale(1,-1)">2028</text>
+			<text x="166" y="302" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,604) scale(1,-1)">Makkah and Eastern</text>
+			<text x="166" y="270" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,540) scale(1,-1)">Replicate the workflow with a second operator.</text>
+			<text x="166" y="246" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,492) scale(1,-1)">Test the full cost of branch support.</text>
+			<text x="596" y="302" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,604) scale(1,-1)">Proceed after partner permission, repeatable</text>
+			<text x="596" y="276" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,552) scale(1,-1)">onboarding and credible unit economics.</text>
+			<path d="M 48,218 L 1032,218 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="163" style="font-family: Times-Bold; font-size: 34px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,326) scale(1,-1)">2029</text>
+			<text x="166" y="167" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,334) scale(1,-1)">Four further regions</text>
+			<text x="166" y="135" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,270) scale(1,-1)">Select sites by readiness, demand for the</text>
+			<text x="166" y="111" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,222) scale(1,-1)">product and support capacity.</text>
+			<text x="596" y="167" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,334) scale(1,-1)">Extend only where the sponsor can sustain</text>
+			<text x="596" y="141" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,282) scale(1,-1)">controls and service delivery.</text>
+			<path d="M 48,83 L 1032,83 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+		</g>
+	</g>
+</svg>

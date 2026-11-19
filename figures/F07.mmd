@@ -1,0 +1,14 @@
+stateDiagram-v2
+  [*] --> DRAFT
+  DRAFT --> REQUESTED: Reserve source quantity
+  DRAFT --> CANCELLED: No inventory effect
+  REQUESTED --> APPROVED: Authorized approver
+  REQUESTED --> REJECTED: Release reservation
+  REQUESTED --> CANCELLED: Release reservation
+  APPROVED --> CANCELLED: Release reservation
+  APPROVED --> DISPATCHED: Deduct origin and record in transit
+  DISPATCHED --> RECEIVED: Credit destination once
+  RECEIVED --> [*]
+  REJECTED --> [*]
+  CANCELLED --> [*]
+

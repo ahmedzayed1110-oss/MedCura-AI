@@ -1,0 +1,11 @@
+flowchart TD
+  A["Hash workbook and extract source cells"] --> B["Type value, unit, geography and reference period"]
+  B --> C{"Coherent observation?"}
+  C -->|Yes| D["Publish observation with source reference"]
+  C -->|Incompatible claims| E["Preserve both cells and record decision"]
+  C -->|Unobserved or missing| F["Mark UNKNOWN and keep null"]
+  E --> G{"Depends on assumed allocation?"}
+  G -->|Yes| H["SCENARIO with weights and denominator"]
+  G -->|No| I["Review reporting period and definitions"]
+  D --> J["DERIVED metric with formula and lineage"]
+

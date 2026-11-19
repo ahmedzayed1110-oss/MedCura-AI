@@ -1,0 +1,15 @@
+requirement,module,implementation,evidence_asset,verification
+A,M1 Saudi market,scripts/ingest.py,data/processed/T01_regions.csv,tests/test_market.py
+A,M2 Evidence audit,scripts/ingest.py,data/processed/T02_conflicts.csv,tests/test_market.py
+B,M3 Stock ledger,apps/api/inventory.py,docs/screenshots/overview.png,tests/test_inventory.py
+C,M4 Forecast,apps/api/science.py,data/demo/T05.csv,tests/test_science.py
+D,M4 Reorder,apps/api/service.py,docs/screenshots/forecast.png,tests/test_inventory.py
+D,M5 Expiry and transfers,apps/api/inventory.py,docs/screenshots/transfer-received.png,tests/test_inventory.py
+D,M5 Stress cases,scripts/stress.py,data/demo/stress.json,tests/test_bench.py
+E,M6 Economics,apps/api/study.py,data/demo/T04_scenario_sensitivity.csv,tests/test_study.py
+E,M7 Pilot,apps/api/study.py,data/templates/T03_pilot_protocol.csv,tests/test_study.py
+E,M8 Presentation,scripts/deck.mjs,presentation/MedCura_AI_Datathon.pptx,tests/test_presentation.py
+E,API and export,run.py,openapi.json,tests/test_api.py
+F,Portable verification,scripts/check.py,docs/TEST_RESULTS.md,tests/http_transport.py
+G,End-user demo,apps/web/app.js,docs/screenshots/mobile-overview.png,tests/e2e.cjs
+

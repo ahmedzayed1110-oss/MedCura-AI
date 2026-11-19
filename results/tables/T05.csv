@@ -1,0 +1,5 @@
+case,quantity,unit,assumption,evidence_type
+mask receipt and issue,47,masks,2 packs of 25 less 3 issued,SYNTHETIC_DEMO
+transfer receipt,25,gloves,one shipping day and SAR 12 freight,SYNTHETIC_DEMO
+synthetic redistribution limit,106,gloves,"Scenario assumes stable daily usage, linear sell-through and no incremental handling or shortage cost beyond the quoted all-in freight.",SYNTHETIC_DEMO
+lead-time delay,110,reorder units,Before delay: 55 units,SYNTHETIC_DEMO

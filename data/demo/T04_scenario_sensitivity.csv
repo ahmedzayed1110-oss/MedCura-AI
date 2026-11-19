@@ -1,0 +1,127 @@
+case,type,window,driver_or_metric,unit,value,evidence_level
+Conservative,assumption,2027-2029,New reachable chain accounts in 2027,accounts,8,SCENARIO
+Conservative,assumption,2027-2029,New reachable chain accounts in 2028,accounts,18,SCENARIO
+Conservative,assumption,2027-2029,New reachable chain accounts in 2029,accounts,28,SCENARIO
+Conservative,assumption,2027-2029,Qualified share of reached chains,%,40,SCENARIO
+Conservative,assumption,2027-2029,Pilot share of qualified chains,%,35,SCENARIO
+Conservative,assumption,2027-2029,Paid conversion of completed pilots,%,30,SCENARIO
+Conservative,assumption,2027-2029,Branches per paying chain,branches,1,SCENARIO
+Conservative,assumption,2027-2029,Monthly subscription per branch,SAR,420,SCENARIO
+Conservative,assumption,2027-2029,One-time onboarding fee per new chain,SAR,1000,SCENARIO
+Conservative,assumption,2027-2029,Deployment cost per new chain,SAR,1600,SCENARIO
+Conservative,assumption,2027-2029,Monthly hosting cost per active branch,SAR,100,SCENARIO
+Conservative,assumption,2027-2029,Monthly support cost per active branch,SAR,220,SCENARIO
+Conservative,assumption,2027-2029,Annual churn of opening contracts,%,18,SCENARIO
+Conservative,assumption,2027-2029,Acquisition expense per new paying chain,SAR,3800,SCENARIO
+Conservative,assumption,2027-2029,Monthly fixed operating expense,SAR,11000,SCENARIO
+Conservative,model output,2027,contracts,contracts,0,SCENARIO
+Conservative,model output,2027,paying_branches,branches,0,SCENARIO
+Conservative,model output,2027,mrr,SAR,0.0,SCENARIO
+Conservative,model output,2027,arr,SAR,0.0,SCENARIO
+Conservative,model output,2027,revenue,SAR,0.0,SCENARIO
+Conservative,model output,2027,cogs,SAR,0.0,SCENARIO
+Conservative,model output,2027,gross_margin_pct,%,,SCENARIO
+Conservative,model output,2027,operating_result,SAR,-132000.0,SCENARIO
+Conservative,model output,2027,break_even_branches,branches,110,SCENARIO
+Conservative,model output,2028,contracts,contracts,0,SCENARIO
+Conservative,model output,2028,paying_branches,branches,0,SCENARIO
+Conservative,model output,2028,mrr,SAR,0.0,SCENARIO
+Conservative,model output,2028,arr,SAR,0.0,SCENARIO
+Conservative,model output,2028,revenue,SAR,0.0,SCENARIO
+Conservative,model output,2028,cogs,SAR,0.0,SCENARIO
+Conservative,model output,2028,gross_margin_pct,%,,SCENARIO
+Conservative,model output,2028,operating_result,SAR,-132000.0,SCENARIO
+Conservative,model output,2028,break_even_branches,branches,110,SCENARIO
+Conservative,model output,2029,contracts,contracts,0,SCENARIO
+Conservative,model output,2029,paying_branches,branches,0,SCENARIO
+Conservative,model output,2029,mrr,SAR,0.0,SCENARIO
+Conservative,model output,2029,arr,SAR,0.0,SCENARIO
+Conservative,model output,2029,revenue,SAR,0.0,SCENARIO
+Conservative,model output,2029,cogs,SAR,0.0,SCENARIO
+Conservative,model output,2029,gross_margin_pct,%,,SCENARIO
+Conservative,model output,2029,operating_result,SAR,-132000.0,SCENARIO
+Conservative,model output,2029,break_even_branches,branches,110,SCENARIO
+Base,assumption,2027-2029,New reachable chain accounts in 2027,accounts,12,SCENARIO
+Base,assumption,2027-2029,New reachable chain accounts in 2028,accounts,25,SCENARIO
+Base,assumption,2027-2029,New reachable chain accounts in 2029,accounts,40,SCENARIO
+Base,assumption,2027-2029,Qualified share of reached chains,%,50,SCENARIO
+Base,assumption,2027-2029,Pilot share of qualified chains,%,50,SCENARIO
+Base,assumption,2027-2029,Paid conversion of completed pilots,%,50,SCENARIO
+Base,assumption,2027-2029,Branches per paying chain,branches,2,SCENARIO
+Base,assumption,2027-2029,Monthly subscription per branch,SAR,600,SCENARIO
+Base,assumption,2027-2029,One-time onboarding fee per new chain,SAR,1500,SCENARIO
+Base,assumption,2027-2029,Deployment cost per new chain,SAR,1200,SCENARIO
+Base,assumption,2027-2029,Monthly hosting cost per active branch,SAR,80,SCENARIO
+Base,assumption,2027-2029,Monthly support cost per active branch,SAR,170,SCENARIO
+Base,assumption,2027-2029,Annual churn of opening contracts,%,10,SCENARIO
+Base,assumption,2027-2029,Acquisition expense per new paying chain,SAR,3000,SCENARIO
+Base,assumption,2027-2029,Monthly fixed operating expense,SAR,9000,SCENARIO
+Base,model output,2027,contracts,contracts,1,SCENARIO
+Base,model output,2027,paying_branches,branches,2,SCENARIO
+Base,model output,2027,mrr,SAR,1200.0,SCENARIO
+Base,model output,2027,arr,SAR,14400.0,SCENARIO
+Base,model output,2027,revenue,SAR,8700.0,SCENARIO
+Base,model output,2027,cogs,SAR,4200.0,SCENARIO
+Base,model output,2027,gross_margin_pct,%,51.72,SCENARIO
+Base,model output,2027,operating_result,SAR,-106500.0,SCENARIO
+Base,model output,2027,break_even_branches,branches,26,SCENARIO
+Base,model output,2028,contracts,contracts,4,SCENARIO
+Base,model output,2028,paying_branches,branches,8,SCENARIO
+Base,model output,2028,mrr,SAR,4800.0,SCENARIO
+Base,model output,2028,arr,SAR,57600.0,SCENARIO
+Base,model output,2028,revenue,SAR,40500.0,SCENARIO
+Base,model output,2028,cogs,SAR,18600.0,SCENARIO
+Base,model output,2028,gross_margin_pct,%,54.07,SCENARIO
+Base,model output,2028,operating_result,SAR,-95100.0,SCENARIO
+Base,model output,2028,break_even_branches,branches,26,SCENARIO
+Base,model output,2029,contracts,contracts,9,SCENARIO
+Base,model output,2029,paying_branches,branches,18,SCENARIO
+Base,model output,2029,mrr,SAR,10800.0,SCENARIO
+Base,model output,2029,arr,SAR,129600.0,SCENARIO
+Base,model output,2029,revenue,SAR,101100.0,SCENARIO
+Base,model output,2029,cogs,SAR,45000.0,SCENARIO
+Base,model output,2029,gross_margin_pct,%,55.49,SCENARIO
+Base,model output,2029,operating_result,SAR,-66900.0,SCENARIO
+Base,model output,2029,break_even_branches,branches,26,SCENARIO
+Favorable,assumption,2027-2029,New reachable chain accounts in 2027,accounts,18,SCENARIO
+Favorable,assumption,2027-2029,New reachable chain accounts in 2028,accounts,36,SCENARIO
+Favorable,assumption,2027-2029,New reachable chain accounts in 2029,accounts,55,SCENARIO
+Favorable,assumption,2027-2029,Qualified share of reached chains,%,60,SCENARIO
+Favorable,assumption,2027-2029,Pilot share of qualified chains,%,60,SCENARIO
+Favorable,assumption,2027-2029,Paid conversion of completed pilots,%,65,SCENARIO
+Favorable,assumption,2027-2029,Branches per paying chain,branches,3,SCENARIO
+Favorable,assumption,2027-2029,Monthly subscription per branch,SAR,820,SCENARIO
+Favorable,assumption,2027-2029,One-time onboarding fee per new chain,SAR,2200,SCENARIO
+Favorable,assumption,2027-2029,Deployment cost per new chain,SAR,900,SCENARIO
+Favorable,assumption,2027-2029,Monthly hosting cost per active branch,SAR,65,SCENARIO
+Favorable,assumption,2027-2029,Monthly support cost per active branch,SAR,135,SCENARIO
+Favorable,assumption,2027-2029,Annual churn of opening contracts,%,5,SCENARIO
+Favorable,assumption,2027-2029,Acquisition expense per new paying chain,SAR,2200,SCENARIO
+Favorable,assumption,2027-2029,Monthly fixed operating expense,SAR,8000,SCENARIO
+Favorable,model output,2027,contracts,contracts,3,SCENARIO
+Favorable,model output,2027,paying_branches,branches,9,SCENARIO
+Favorable,model output,2027,mrr,SAR,7380.0,SCENARIO
+Favorable,model output,2027,arr,SAR,88560.0,SCENARIO
+Favorable,model output,2027,revenue,SAR,50880.0,SCENARIO
+Favorable,model output,2027,cogs,SAR,13500.0,SCENARIO
+Favorable,model output,2027,gross_margin_pct,%,73.47,SCENARIO
+Favorable,model output,2027,operating_result,SAR,-65220.0,SCENARIO
+Favorable,model output,2027,break_even_branches,branches,13,SCENARIO
+Favorable,model output,2028,contracts,contracts,10,SCENARIO
+Favorable,model output,2028,paying_branches,branches,30,SCENARIO
+Favorable,model output,2028,mrr,SAR,24600.0,SCENARIO
+Favorable,model output,2028,arr,SAR,295200.0,SCENARIO
+Favorable,model output,2028,revenue,SAR,207280.0,SCENARIO
+Favorable,model output,2028,cogs,SAR,53100.0,SCENARIO
+Favorable,model output,2028,gross_margin_pct,%,74.38,SCENARIO
+Favorable,model output,2028,operating_result,SAR,42780.0,SCENARIO
+Favorable,model output,2028,break_even_branches,branches,13,SCENARIO
+Favorable,model output,2029,contracts,contracts,21,SCENARIO
+Favorable,model output,2029,paying_branches,branches,63,SCENARIO
+Favorable,model output,2029,mrr,SAR,51660.0,SCENARIO
+Favorable,model output,2029,arr,SAR,619920.0,SCENARIO
+Favorable,model output,2029,revenue,SAR,469200.0,SCENARIO
+Favorable,model output,2029,cogs,SAR,118800.0,SCENARIO
+Favorable,model output,2029,gross_margin_pct,%,74.68,SCENARIO
+Favorable,model output,2029,operating_result,SAR,228000.0,SCENARIO
+Favorable,model output,2029,break_even_branches,branches,13,SCENARIO

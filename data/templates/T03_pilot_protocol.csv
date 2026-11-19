@@ -1,0 +1,13 @@
+measure,numerator,denominator_or_scope,unit,protocol_note,result_status
+Stockout incidence,New SKU stockout episodes,Observed eligible SKU-days with starts and hours,"starts per 1,000 SKU-days",Continuing episodes have zero new starts. Closed or unobserved days are missing.,Not measured
+Stockout duration,Hours with zero usable stock,SKU-days with observed stockout hours,hours per SKU-day,Within a SKU-day count overlapping outages once. Maximum 24 hours.,Not measured
+Expiry quantity,Expired base units recorded,Tracked SKU-days with expiry values,base units summed,Combine units only for comparable base units. Inspect mix changes.,Not measured
+Expiry write-off,Sum of expired units times their actual weighted unit cost,Tracked SKU-days with expiry and cost,SAR summed,Use disposal records. Do not impute cost from procurement quotes.,Not measured
+Expiry share,Expiry write-off in SAR,Opening value plus new tracked receipts in SAR,percent,Count opening value once per window. Missing cost suppresses the metric when coverage is inadequate.,Not measured
+Counting effort,Counting hours attributed to this SKU,Standardized SKU-count sessions,hours per SKU session,Allocate a shared session's staff time once across observed SKUs. Keep scope constant.,Not measured
+Reconciliation discrepancy,Count lines differing from physical check,All counted lines,percent,Use the same line-level discrepancy tolerance in both periods.,Not measured
+Barcode adoption,Eligible CRUD events with successful scan,Eligible inventory events,percent,Exclude predeclared manual-only lines from both counts.,Not measured
+Correction rate,Entries requiring correction,All recorded entries,percent,Count each corrected entry once even when amended more than once.,Not measured
+Completeness,Eligible SKU-days with all core fields,Registered SKUs multiplied by local calendar days,percent,"Core fields are issued, received, on_hand, stockout_hours, stockout_starts, scan_eligible, scanned.",Not measured
+Forecast error,Sum of absolute frozen forecast minus actual issues,Matched forecast/issue SKU-days,MAE in base units,Archive the forecast before each day begins. Issues can understate demand on stockout days.,Not measured
+Adherence,Reviewed alerts with a followed action,Eligible alerts,percent,Record reason codes for overrides in source records.,Not measured

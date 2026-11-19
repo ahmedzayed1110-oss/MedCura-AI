@@ -1,0 +1,101 @@
+[
+  {
+    "id": "F01",
+    "title": "Where private medical complexes are located",
+    "caption": "All 13 administrative regions. Counts describe facility locations. The workbook cites MOH statistics.",
+    "evidence_level": "OBSERVED_PUBLIC",
+    "source_ref": "Workbook A, 01 Facilities!A5:H18 (2024).",
+    "svg": "F01.svg",
+    "png": "F01.png"
+  },
+  {
+    "id": "F02",
+    "title": "How quickly the footprint accumulates",
+    "caption": "Cumulative sum of the 2024 regional counts divided by their national sum. Ties use canonical region order.",
+    "evidence_level": "DERIVED",
+    "source_ref": "Workbook A, 01 Facilities!A5:H18 (2024).",
+    "svg": "F02.svg",
+    "png": "F02.png"
+  },
+  {
+    "id": "F03",
+    "title": "Geographic sequence for partner discovery",
+    "caption": "The phase sequence is an editable commercial strategy. Counts establish geographic scale only. Contract, conversion and deployment counts remain unknown.",
+    "evidence_level": "SCENARIO",
+    "source_ref": "Workbook A, 01 Facilities!A5:H18 (2024). Strategy from the supplied guide, slides 6 and 8.",
+    "svg": "F03.svg",
+    "png": "F03.png"
+  },
+  {
+    "id": "F04",
+    "title": "Tracing a number back to its source",
+    "caption": "Users can follow a regional total through its contributing cells. A regional insurance allocation appears only with scenario evidence.",
+    "evidence_level": "DERIVED",
+    "source_ref": "Source reconciliation design. See data/source_manifest.json and the conflict register.",
+    "svg": "F04.svg",
+    "png": "F04.png"
+  },
+  {
+    "id": "F05",
+    "title": "The inventory decision workflow",
+    "caption": "The prototype demonstrates event handling with synthetic records. The final measurement stage requires an approved pilot.",
+    "evidence_level": "SYNTHETIC_DEMO",
+    "source_ref": "Prototype mechanism. Actual operational benefit requires prospective branch observations.",
+    "svg": "F05.svg",
+    "png": "F05.png"
+  },
+  {
+    "id": "F06",
+    "title": "Reorder review follows the data",
+    "caption": "The order candidate targets a disclosed stock level. Actual purchasing requires authorized review.",
+    "evidence_level": "SYNTHETIC_DEMO",
+    "source_ref": "Decision rule from the execution directive, section 7. Parameters require branch validation.",
+    "svg": "F06.svg",
+    "png": "F06.png"
+  },
+  {
+    "id": "F07",
+    "title": "Who holds the stock during a transfer?",
+    "caption": "Proposals use valid, eligible lots and remaining shelf life. Approved movements preserve units once dispatch and receipt have posted.",
+    "evidence_level": "SYNTHETIC_DEMO",
+    "source_ref": "Prototype transfer design. Inspect the audit trail for the actor and time of each transition.",
+    "svg": "F07.svg",
+    "png": "F07.png"
+  },
+  {
+    "id": "F08",
+    "title": "A one-branch measurement design",
+    "caption": "This is a prospective before/after plan. The pilot sponsor should pre-register exposure, outcomes and decision thresholds.",
+    "evidence_level": "SCENARIO",
+    "source_ref": "Supplied Arabic presentation guide and research blueprint, November 2026. See the pilot protocol and T03.",
+    "svg": "F08.svg",
+    "png": "F08.png"
+  },
+  {
+    "id": "F09",
+    "title": "Three decisions before wider rollout",
+    "caption": "The region sequence follows the supplied strategic guide. Funding, signed partners, staff capacity and measured results are future decisions.",
+    "evidence_level": "SCENARIO",
+    "source_ref": "Supplied Arabic presentation guide and research blueprint, November 2026. Expansion is conditional on measured operational and commercial evidence.",
+    "svg": "F09.svg",
+    "png": "F09.png"
+  },
+  {
+    "id": "F10",
+    "title": "Which claim can each record support?",
+    "caption": "The record type limits the scope of each claim. Synthetic events cannot establish measured pilot effects.",
+    "evidence_level": "DERIVED",
+    "source_ref": "Evidence taxonomy from the execution directive, section 1. Current pilot results: not measured.",
+    "svg": "F10.svg",
+    "png": "F10.png"
+  },
+  {
+    "id": "F11",
+    "title": "SIMULATED — NOT VALIDATED ON CLINIC DATA",
+    "caption": "Prediction-versus-actual comparison for the seeded branch/SKU. Held-out model errors measure behavior on generated records only.",
+    "evidence_level": "SYNTHETIC_DEMO",
+    "source_ref": "Source: data/demo/backtest.json and T05. Synthetic performance does not establish field accuracy.",
+    "svg": "F11.svg",
+    "png": "F11.png"
+  }
+]

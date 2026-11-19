@@ -1,0 +1,87 @@
+2026-11-19 14:17:23,795 GET /
+2026-11-19 14:17:23,944 GET /style.css
+2026-11-19 14:17:23,974 GET /study.js
+2026-11-19 14:17:24,019 GET /app.js
+2026-11-19 14:17:24,210 GET /api/session
+2026-11-19 14:17:24,544 GET /favicon.svg
+2026-11-19 14:17:25,641 POST /api/login
+2026-11-19 14:17:25,724 GET /api/session
+2026-11-19 14:17:25,841 GET /api/market/regions
+2026-11-19 14:17:25,870 GET /api/market/metrics
+2026-11-19 14:17:26,278 GET /api/state
+2026-11-19 14:17:26,313 GET /api/scenarios
+2026-11-19 14:17:26,840 GET /api/evidence/lineage/complexes
+PASS Sign-in and cell-level KPI lineage
+2026-11-19 14:17:27,302 GET /favicon.svg
+2026-11-19 14:17:27,525 GET /api/state
+2026-11-19 14:17:28,437 POST /api/inventory/receive
+2026-11-19 14:17:28,630 GET /api/state
+2026-11-19 14:17:29,044 POST /api/inventory/issue
+2026-11-19 14:17:29,219 GET /api/state
+2026-11-19 14:17:29,350 GET /favicon.svg
+2026-11-19 14:17:29,472 GET /api/state
+2026-11-19 14:17:29,521 GET /api/ledger
+PASS Pack receipt, lot issue and ledger reconciliation
+2026-11-19 14:17:29,980 GET /favicon.svg
+2026-11-19 14:17:30,059 GET /api/state
+2026-11-19 14:17:30,227 GET /api/decisions/reorder
+2026-11-19 14:17:30,515 GET /api/state
+2026-11-19 14:17:30,610 GET /api/decisions/reorder
+2026-11-19 14:17:31,097 GET /api/state
+2026-11-19 14:17:31,332 GET /api/decisions/reorder
+PASS Forecast and reorder explanation
+2026-11-19 14:17:31,909 GET /favicon.svg
+2026-11-19 14:17:32,098 GET /api/state
+2026-11-19 14:17:32,373 POST /api/transfers
+2026-11-19 14:17:32,495 GET /api/state
+2026-11-19 14:17:32,649 POST /api/transfers
+2026-11-19 14:17:32,870 GET /api/state
+2026-11-19 14:17:33,067 POST /api/transfers
+2026-11-19 14:17:33,249 GET /api/state
+2026-11-19 14:17:33,496 POST /api/transfers
+2026-11-19 14:17:33,676 GET /api/state
+2026-11-19 14:17:33,855 POST /api/transfers
+2026-11-19 14:17:34,026 GET /api/state
+PASS Transfer draft, approval, dispatch and receipt
+2026-11-19 14:17:34,177 GET /favicon.svg
+2026-11-19 14:17:34,346 GET /api/state
+2026-11-19 14:17:34,506 POST /api/decisions/reorder
+2026-11-19 14:17:34,678 GET /api/state
+2026-11-19 14:17:34,954 POST /api/orders/receive
+2026-11-19 14:17:35,109 GET /api/state
+PASS Order approval and physical receipt
+2026-11-19 14:17:35,279 GET /favicon.svg
+2026-11-19 14:17:35,428 GET /api/state
+2026-11-19 14:17:35,445 GET /api/scenarios
+2026-11-19 14:17:35,657 POST /api/scenarios
+2026-11-19 14:17:35,871 GET /favicon.svg
+2026-11-19 14:17:36,030 GET /api/state
+2026-11-19 14:17:36,049 GET /api/pilot/report
+PASS Saved scenario and empty prospective pilot
+2026-11-19 14:17:36,278 POST /api/pilot/measurements
+PASS Pilot upload rejects a nonconforming schema
+2026-11-19 14:17:36,399 GET /favicon.svg
+2026-11-19 14:17:36,505 GET /api/state
+2026-11-19 14:17:36,806 GET /favicon.svg
+2026-11-19 14:17:36,921 GET /api/state
+2026-11-19 14:17:36,952 GET /api/sources
+2026-11-19 14:17:36,955 GET /api/evidence/conflicts
+2026-11-19 14:17:36,965 GET /api/evidence/lineage
+2026-11-19 14:17:36,969 GET /api/competitors
+2026-11-19 14:17:37,000 GET /assets/data/processed/cells_A.json
+2026-11-19 14:17:37,012 GET /assets/data/processed/cells_B.json
+PASS Regional filtering and raw workbook cell lookup
+2026-11-19 14:17:37,304 GET /favicon.svg
+2026-11-19 14:17:37,402 GET /api/state
+2026-11-19 14:17:37,420 GET /api/presentation
+2026-11-19 14:17:37,423 GET /assets/figures/catalog.json
+2026-11-19 14:17:37,574 GET /favicon.svg
+2026-11-19 14:17:37,694 GET /api/state
+2026-11-19 14:17:37,714 GET /api/audit
+2026-11-19 14:17:37,873 GET /favicon.svg
+2026-11-19 14:17:38,016 GET /api/state
+2026-11-19 14:17:38,030 GET /api/scenarios
+2026-11-19 14:17:38,349 GET /favicon.svg
+2026-11-19 14:17:38,471 GET /api/state
+PASS Mobile navigation and persistent state
+9 browser workflows passed; 0 failed; transport TCP HTTP

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1080" height="660" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1080 660" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="medcura-title medcura-desc"><title id="medcura-title">A one-branch measurement design</title><desc id="medcura-desc">This is a prospective before/after plan. The pilot sponsor should pre-register exposure, outcomes and decision thresholds.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1080" height="660"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-660)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1080" height="660" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,97%,95%); fill-rule: evenodd;"/>
+			<text x="48" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,1232) scale(1,-1)">MEDCURA AI   /   RESEARCH FIGURES</text>
+			<text x="908.461" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1232) scale(1,-1)">F08    /    SCENARIO</text>
+			<path d="M 48,599 L 1032,599 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="548" style="font-family: Times-Bold; font-size: 43px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,1096) scale(1,-1)">A one-branch measurement design</text>
+			<text x="48" y="512" style="font-family: Helvetica; font-size: 19px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1024) scale(1,-1)">Proposed Riyadh pilot. Actual outcome fields remain unmeasured until an authorized import.</text>
+			<path d="M 48,55 L 1032,55 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="25" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,50) scale(1,-1)">Supplied Arabic presentation guide and research blueprint, November 2026. See the pilot protocol and T03.</text>
+			<path d="M 54,437 L 363,437 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 3;"/>
+			<circle cx="54" cy="437" r="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="48" y="378" style="font-family: Times-Bold; font-size: 29px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,756) scale(1,-1)">Baseline</text>
+			<text x="48" y="333" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,666) scale(1,-1)">Freeze the tracked SKU list and</text>
+			<text x="48" y="305" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,610) scale(1,-1)">count eligible days. Record</text>
+			<text x="48" y="277" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,554) scale(1,-1)">stockouts, write-offs and staff</text>
+			<text x="48" y="249" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,498) scale(1,-1)">time.</text>
+			<path d="M 384,437 L 693,437 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 3;"/>
+			<circle cx="384" cy="437" r="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="378" y="378" style="font-family: Times-Bold; font-size: 29px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,756) scale(1,-1)">Silent review</text>
+			<text x="378" y="333" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,666) scale(1,-1)">Reconcile counts, compare</text>
+			<text x="378" y="305" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,610) scale(1,-1)">baseline forecasts and review</text>
+			<text x="378" y="277" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,554) scale(1,-1)">the completeness of dated</text>
+			<text x="378" y="249" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,498) scale(1,-1)">observations.</text>
+			<path d="M 714,437 L 1023,437 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 3;"/>
+			<circle cx="714" cy="437" r="8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="708" y="378" style="font-family: Times-Bold; font-size: 29px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,756) scale(1,-1)">Intervention</text>
+			<text x="708" y="333" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,666) scale(1,-1)">Enable reviewed alerts. Keep</text>
+			<text x="708" y="305" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,610) scale(1,-1)">definitions stable and record</text>
+			<text x="708" y="277" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,554) scale(1,-1)">adherence, overrides and</text>
+			<text x="708" y="249" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,498) scale(1,-1)">supplier delays.</text>
+			<rect x="48" y="94" width="984" height="102" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<text x="66" y="165" style="font-family: Helvetica-Bold; font-size: 19px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,330) scale(1,-1)">Interpretation</text>
+			<text x="66" y="133" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,266) scale(1,-1)">Compare non-overlapping windows with matching SKU scope. Check season, staffing and lead times. A</text>
+			<text x="66" y="108" style="font-family: Helvetica; font-size: 19px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,216) scale(1,-1)">matched comparison branch would strengthen attribution.</text>
+		</g>
+	</g>
+</svg>

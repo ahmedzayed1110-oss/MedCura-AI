@@ -1,0 +1,222 @@
+[
+  {
+    "number": 1,
+    "section": "Executive thesis",
+    "title": "Inventory decisions for Saudi private medical complexes",
+    "body": "A branch manager needs to know what can be issued today, what may expire and what needs approval before the next delivery.",
+    "items": [
+      {
+        "label": "Start in Riyadh",
+        "text": "A proposed single-branch pilot tracks gloves, masks and dressings."
+      },
+      {
+        "label": "Make decisions traceable",
+        "text": "Every reorder or transfer should explain its quantity, timing and evidence."
+      }
+    ],
+    "notes": "Use the prototype to show how an inventory record becomes a reviewable supply decision. State at the outset that the Saudi market counts come from dated statistics and branch transactions in the demo are synthetic. The operational value of this proposal remains a pilot question.",
+    "source_ref": "Supplied Arabic presentation guide, slide 1; MedCura AI Visual Research and Codex Blueprint, pages 2 and 5.",
+    "figure": "F05",
+    "evidence_level": "SCENARIO"
+  },
+  {
+    "number": 2,
+    "section": "The operating question",
+    "title": "What can the branch safely issue today?",
+    "body": "A carton on a shelf may already be reserved. A lot can expire before the next inventory count. Staff need both quantities before promising supply.",
+    "items": [
+      {
+        "label": "Usable units",
+        "text": "Separate physical stock from reservations, quarantine and expired lots."
+      },
+      {
+        "label": "Evidence gap",
+        "text": "The supplied workbooks contain no dated branch issues, write-offs or counting shifts."
+      }
+    ],
+    "notes": "Use a concrete stocked-but-unavailable example. Stockout events, expiry losses and staff time are outcomes to measure. The guide describes the operating problem, but it does not quantify its prevalence across Saudi complexes.",
+    "source_ref": "Supplied Arabic presentation guide, slide 2; MedCura AI Visual Research and Codex Blueprint, pages 5 and 8.",
+    "figure": "F07",
+    "evidence_level": "UNKNOWN"
+  },
+  {
+    "number": 3,
+    "section": "Source governance",
+    "title": "The regional insurance figures are estimates",
+    "body": "A workbook status cell cannot establish that a value was observed. Keep the source, definition and time window beside the number.",
+    "items": [
+      {
+        "label": "Workbook A",
+        "text": "A complete dated regional series is missing. The Q1 2026 figure covers the whole country."
+      },
+      {
+        "label": "Workbook B",
+        "text": "Regional estimates allocate a national pool using facility and population weights of 65% and 35%."
+      }
+    ],
+    "notes": "Separate an observation with incomplete primary verification from a derived number and a scenario. Workbook B labels some allocated values verified; the allocation still depends on assumptions. Avoid merging national estimates across different reporting windows.",
+    "source_ref": "Supplied Arabic presentation guide, slide 3; workbooks A and B, 03 Insurance by Region!A2:E14 and 04 Insurance National.",
+    "figure": "F04",
+    "evidence_level": "SCENARIO"
+  },
+  {
+    "number": 4,
+    "section": "Market evidence",
+    "title": "Three regions account for 70.1% of private complexes",
+    "body": "2,527 of 3,607 private medical complexes were in Riyadh, Makkah and Eastern Province in the 2024 workbook.",
+    "items": [
+      {
+        "label": "Riyadh",
+        "text": "1,171 locations"
+      },
+      {
+        "label": "Makkah",
+        "text": "880 locations"
+      },
+      {
+        "label": "Eastern Province",
+        "text": "476 locations"
+      }
+    ],
+    "notes": "The national count reconciles across all 13 administrative regions. Makkah refers to the region. The facility count gives a geographic footprint. There is no chain ownership or buyer identifier. The top seven total 3,238, or 89.8%. Population denominators refer to the 2022 census.",
+    "source_ref": "Supplied Arabic presentation guide, slide 4; Workbook A (Datathon Dataset - MedCuraAI - Completed.xlsx), 01 Facilities!A4:H18. Workbook A (Datathon Dataset - MedCuraAI - Completed.xlsx), 02 Population!A2:F14.",
+    "figure": "F02",
+    "evidence_level": "DERIVED"
+  },
+  {
+    "number": 5,
+    "section": "Decision mechanism",
+    "title": "From one receipt to a reviewed transfer",
+    "body": "A dated receipt enters stock in base units. A lot-level issue changes the balance. The next review compares usable stock with demand and expiry.",
+    "items": [
+      {
+        "label": "Ledger",
+        "text": "Record and validate each lot movement."
+      },
+      {
+        "label": "Policy",
+        "text": "Compare inventory position with lead-time demand and a safety buffer."
+      },
+      {
+        "label": "Review",
+        "text": "A named approver checks the lot, quantity and route before dispatch."
+      }
+    ],
+    "notes": "Demonstrate this sequence with the synthetic branch workspace. Explain why an order cannot increase physical stock before receipt, and why a transfer leaves the source once, then reaches its destination on receipt. Actual adoption and outcomes depend on future field data.",
+    "source_ref": "Supplied Arabic presentation guide, slide 5; MedCura AI Visual Research and Codex Blueprint, pages 6–8; prototype ledger and transfer controls.",
+    "figure": "F06",
+    "evidence_level": "SYNTHETIC_DEMO"
+  },
+  {
+    "number": 6,
+    "section": "Commercial choices",
+    "title": "A chain signs. Its branches use the service.",
+    "body": "Facility locations provide a search area. Contracting and revenue require separate assumptions about the number of reachable chains, paid conversion and enabled branches.",
+    "items": [
+      {
+        "label": "Partner discovery",
+        "text": "Identify the buyer and how many branches that buyer controls."
+      },
+      {
+        "label": "Unit economics",
+        "text": "Price per paid branch and month. Model onboarding, recurring support, hosting and churn."
+      }
+    ],
+    "notes": "Test willingness to pay and implementation effort with potential buyers. Other vendors advertise inventory or forecasting capabilities. Position reviewable recommendations and light integration as hypotheses for buyer interviews. Healthcare-specific competitor prices remain unknown where the evidence gives no public rate.",
+    "source_ref": "Supplied Arabic presentation guide, slide 6; Workbook A (Datathon Dataset - MedCuraAI - Completed.xlsx), 06 Competitors!A2:H13; MedCura AI Visual Research and Codex Blueprint, page 11.",
+    "figure": "F03",
+    "evidence_level": "SCENARIO"
+  },
+  {
+    "number": 7,
+    "section": "Pilot design",
+    "title": "One branch, comparable observation windows",
+    "body": "Track the same non-pharmaceutical SKUs in a Riyadh branch before and after reviewed alerts begin.",
+    "items": [
+      {
+        "label": "Baseline",
+        "text": "Record eligible SKU-days, stockout starts and hours, write-offs and staff counting time."
+      },
+      {
+        "label": "Silent review",
+        "text": "Reconcile scans and compare simple forecasts without changing purchasing."
+      },
+      {
+        "label": "Intervention",
+        "text": "Turn on human-reviewed alerts. Log actions, missed scans, staffing and lead-time changes."
+      }
+    ],
+    "notes": "Pre-register the eligible SKU list, windows, main outcome, thresholds and censoring rules with the site. Add a comparison branch or staggered start where feasible. A single-site pre/post difference is an association and seasonality can affect it. Actual pilot outcomes are not measured.",
+    "source_ref": "Supplied Arabic presentation guide, slide 7; MedCura AI Visual Research and Codex Blueprint, page 9.",
+    "figure": "F08",
+    "evidence_level": "SCENARIO"
+  },
+  {
+    "number": 8,
+    "section": "Conditional strategy",
+    "title": "A pilot in 2027 precedes regional expansion",
+    "body": "Each step requires evidence from the preceding stage and permission from the next participating operator.",
+    "items": [
+      {
+        "label": "2027   Riyadh",
+        "text": "Seek one branch in a region with 1,171 private complexes. Review baseline quality and adherence."
+      },
+      {
+        "label": "2028   Makkah and Eastern",
+        "text": "Test replication across the three-region footprint of 2,527 locations."
+      },
+      {
+        "label": "2029   Four further regions",
+        "text": "Consider Asir, Madinah, Qassim and Jazan. Seven regions total 3,238 locations."
+      }
+    ],
+    "notes": "The geographic counts come from 2024. The years describe proposed commercial decisions. They do not establish new contracts, integrations or installations. Pause an expansion if support capacity, reconciliation or economics fail the agreed review.",
+    "source_ref": "Supplied Arabic presentation guide, slide 8; Workbook A (Datathon Dataset - MedCuraAI - Completed.xlsx), 01 Facilities!A4:H18. MedCura AI Visual Research and Codex Blueprint, page 12.",
+    "figure": "F09",
+    "evidence_level": "SCENARIO"
+  },
+  {
+    "number": 9,
+    "section": "Measures and risks",
+    "title": "The pilot must measure both benefit and failure",
+    "body": "Pair each operating measure with a denominator and record events that can bias it.",
+    "items": [
+      {
+        "label": "Availability",
+        "text": "Stockout starts per 1,000 eligible SKU-days and unavailable hours per eligible observation window."
+      },
+      {
+        "label": "Waste and effort",
+        "text": "Write-off quantity and cost, tracked inventory value, and counting hours for the same scope."
+      },
+      {
+        "label": "Reliability",
+        "text": "Missing scans, reconciliation corrections and lead-time shifts can change the apparent result."
+      }
+    ],
+    "notes": "Agree a go, pivot or no-go rule before observing post-period results. Inspect adverse changes in availability or recording quality alongside any apparent benefit. Count episodes separately from affected SKU-days. Do not replace actual write-offs with estimated risk.",
+    "source_ref": "Supplied Arabic presentation guide, slide 9; MedCura AI Visual Research and Codex Blueprint, page 9; T03 measurement protocol.",
+    "figure": "F08",
+    "evidence_level": "SCENARIO"
+  },
+  {
+    "number": 10,
+    "section": "Next decision",
+    "title": "What a Riyadh pilot partner can test",
+    "body": "Bring a branch owner, a stockkeeper and an authorized operational extract to the same pilot review.",
+    "items": [
+      {
+        "label": "The data request",
+        "text": "A SKU and unit dictionary, dated receipts and issues, lot attributes, lead times and physical counts."
+      },
+      {
+        "label": "The decision",
+        "text": "Agree how to measure availability, expiry, effort and adoption before the first alert goes live."
+      }
+    ],
+    "notes": "Close with a request for an authorized operational pilot, rather than a promise of savings. Source-linked statistics support the geographic case, the local prototype demonstrates a workflow, and a measured trial is the next evidence gate.",
+    "source_ref": "Supplied Arabic presentation guide, slide 10; Workbook A (Datathon Dataset - MedCuraAI - Completed.xlsx), 01 Facilities!A4:H18. MedCura AI Visual Research and Codex Blueprint, pages 9 and 12.",
+    "figure": "F10",
+    "evidence_level": "SCENARIO"
+  }
+]

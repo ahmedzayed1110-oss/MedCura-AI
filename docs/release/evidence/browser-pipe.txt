@@ -1,0 +1,10 @@
+PASS Sign-in and cell-level KPI lineage
+PASS Pack receipt, lot issue and ledger reconciliation
+PASS Forecast and reorder explanation
+PASS Transfer draft, approval, dispatch and receipt
+PASS Order approval and physical receipt
+PASS Saved scenario and empty prospective pilot
+PASS Pilot upload rejects a nonconforming schema
+PASS Regional filtering and raw workbook cell lookup
+PASS Mobile navigation and persistent state
+9 browser workflows passed; 0 failed; transport stdio HTTP

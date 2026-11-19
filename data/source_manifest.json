@@ -1,0 +1,1363 @@
+{
+  "extracted_utc": "2026-11-19T10:03:12.589400+00:00",
+  "files": [
+    {
+      "id": "A",
+      "name": "Datathon Dataset - MedCuraAI - Completed.xlsx",
+      "size": 18756,
+      "sha256": "a6a19db38766e68f99b3ced409c9f4f38c08bedb7b48ea2f147168a5d6fdb724",
+      "parsing_status": "parsed",
+      "source_path": "data/raw/Datathon Dataset - MedCuraAI - Completed.xlsx",
+      "issues": [],
+      "metadata": {
+        "creator": "openpyxl",
+        "title": null,
+        "description": null,
+        "created": "2026-11-19 10:03:12.835331",
+        "modified": "2026-11-19 10:03:12.835331",
+        "lastModifiedBy": null
+      },
+      "sheets": [
+        {
+          "name": "START HERE",
+          "dimension": "A1:C12",
+          "rows": 12,
+          "columns": 3,
+          "populated_range": "A1:C12",
+          "header_row": 1,
+          "populated_cells": 36,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 0,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "01 Facilities",
+          "dimension": "A1:H23",
+          "rows": 23,
+          "columns": 8,
+          "populated_range": "A1:H23",
+          "header_row": 4,
+          "populated_cells": 126,
+          "blank_cells_in_dimensions": 58,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 1,
+          "formula_count": 1,
+          "formulas": [
+            [
+              "G18",
+              "=SUM(G5:G17)",
+              56
+            ]
+          ],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "02 Population",
+          "dimension": "A1:F14",
+          "rows": 14,
+          "columns": 6,
+          "populated_range": "A1:F14",
+          "header_row": 1,
+          "populated_cells": 84,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 13,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "03 Insurance by Region",
+          "dimension": "A1:E14",
+          "rows": 14,
+          "columns": 5,
+          "populated_range": "A1:E14",
+          "header_row": 1,
+          "populated_cells": 70,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 13,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "04 Insurance National",
+          "dimension": "A1:D8",
+          "rows": 8,
+          "columns": 4,
+          "populated_range": "A1:D8",
+          "header_row": 3,
+          "populated_cells": 18,
+          "blank_cells_in_dimensions": 14,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 2,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "05 Workforce",
+          "dimension": "A1:F14",
+          "rows": 14,
+          "columns": 6,
+          "populated_range": "A1:F14",
+          "header_row": 1,
+          "populated_cells": 84,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 13,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "06 Competitors",
+          "dimension": "A1:H13",
+          "rows": 13,
+          "columns": 8,
+          "populated_range": "A1:H13",
+          "header_row": 1,
+          "populated_cells": 104,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 12,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "07 Regional Analysis",
+          "dimension": "A1:I14",
+          "rows": 14,
+          "columns": 9,
+          "populated_range": "A1:I14",
+          "header_row": 1,
+          "populated_cells": 126,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 0,
+          "formula_count": 91,
+          "formulas": [
+            [
+              "B2",
+              "='01 Facilities'!B5",
+              115
+            ],
+            [
+              "C2",
+              "='01 Facilities'!D5",
+              50
+            ],
+            [
+              "D2",
+              "='01 Facilities'!E5",
+              404
+            ],
+            [
+              "E2",
+              "='01 Facilities'!F5",
+              1171
+            ],
+            [
+              "F2",
+              "=IF('02 Population'!B2=\"\",\"\",'02 Population'!B2)",
+              8591748
+            ],
+            [
+              "G2",
+              "=IF(OR(F2=\"\",F2=0),\"\",(B2+D2+E2)/F2*100000)",
+              19.67003687724547
+            ],
+            [
+              "H2",
+              "=IFERROR(C2/B2,\"\")",
+              0.43478260869565216
+            ],
+            [
+              "B3",
+              "='01 Facilities'!B6",
+              99
+            ],
+            [
+              "C3",
+              "='01 Facilities'!D6",
+              41
+            ],
+            [
+              "D3",
+              "='01 Facilities'!E6",
+              318
+            ],
+            [
+              "E3",
+              "='01 Facilities'!F6",
+              880
+            ],
+            [
+              "F3",
+              "=IF('02 Population'!B3=\"\",\"\",'02 Population'!B3)",
+              8021463
+            ],
+            [
+              "G3",
+              "=IF(OR(F3=\"\",F3=0),\"\",(B3+D3+E3)/F3*100000)",
+              16.169120271451728
+            ],
+            [
+              "H3",
+              "=IFERROR(C3/B3,\"\")",
+              0.41414141414141414
+            ],
+            [
+              "B4",
+              "='01 Facilities'!B7",
+              87
+            ],
+            [
+              "C4",
+              "='01 Facilities'!D7",
+              38
+            ],
+            [
+              "D4",
+              "='01 Facilities'!E7",
+              229
+            ],
+            [
+              "E4",
+              "='01 Facilities'!F7",
+              476
+            ],
+            [
+              "F4",
+              "=IF('02 Population'!B4=\"\",\"\",'02 Population'!B4)",
+              5125254
+            ],
+            [
+              "G4",
+              "=IF(OR(F4=\"\",F4=0),\"\",(B4+D4+E4)/F4*100000)",
+              15.452892676148345
+            ],
+            [
+              "H4",
+              "=IFERROR(C4/B4,\"\")",
+              0.4367816091954023
+            ],
+            [
+              "B5",
+              "='01 Facilities'!B8",
+              33
+            ],
+            [
+              "C5",
+              "='01 Facilities'!D8",
+              10
+            ],
+            [
+              "D5",
+              "='01 Facilities'!E8",
+              154
+            ],
+            [
+              "E5",
+              "='01 Facilities'!F8",
+              182
+            ],
+            [
+              "F5",
+              "=IF('02 Population'!B5=\"\",\"\",'02 Population'!B5)",
+              2137983
+            ],
+            [
+              "G5",
+              "=IF(OR(F5=\"\",F5=0),\"\",(B5+D5+E5)/F5*100000)",
+              17.259257908037622
+            ],
+            [
+              "H5",
+              "=IFERROR(C5/B5,\"\")",
+              0.30303030303030304
+            ],
+            [
+              "B6",
+              "='01 Facilities'!B9",
+              25
+            ],
+            [
+              "C6",
+              "='01 Facilities'!D9",
+              4
+            ],
+            [
+              "D6",
+              "='01 Facilities'!E9",
+              156
+            ],
+            [
+              "E6",
+              "='01 Facilities'!F9",
+              146
+            ],
+            [
+              "F6",
+              "=IF('02 Population'!B6=\"\",\"\",'02 Population'!B6)",
+              1336179
+            ],
+            [
+              "G6",
+              "=IF(OR(F6=\"\",F6=0),\"\",(B6+D6+E6)/F6*100000)",
+              24.472768992777162
+            ],
+            [
+              "H6",
+              "=IFERROR(C6/B6,\"\")",
+              0.16
+            ],
+            [
+              "B7",
+              "='01 Facilities'!B10",
+              43
+            ],
+            [
+              "C7",
+              "='01 Facilities'!D10",
+              11
+            ],
+            [
+              "D7",
+              "='01 Facilities'!E10",
+              281
+            ],
+            [
+              "E7",
+              "='01 Facilities'!F10",
+              255
+            ],
+            [
+              "F7",
+              "=IF('02 Population'!B7=\"\",\"\",'02 Population'!B7)",
+              2024285
+            ],
+            [
+              "G7",
+              "=IF(OR(F7=\"\",F7=0),\"\",(B7+D7+E7)/F7*100000)",
+              28.602691814640725
+            ],
+            [
+              "H7",
+              "=IFERROR(C7/B7,\"\")",
+              0.2558139534883721
+            ],
+            [
+              "B8",
+              "='01 Facilities'!B11",
+              16
+            ],
+            [
+              "C8",
+              "='01 Facilities'!D11",
+              2
+            ],
+            [
+              "D8",
+              "='01 Facilities'!E11",
+              85
+            ],
+            [
+              "E8",
+              "='01 Facilities'!F11",
+              84
+            ],
+            [
+              "F8",
+              "=IF('02 Population'!B8=\"\",\"\",'02 Population'!B8)",
+              886036
+            ],
+            [
+              "G8",
+              "=IF(OR(F8=\"\",F8=0),\"\",(B8+D8+E8)/F8*100000)",
+              20.879512796319787
+            ],
+            [
+              "H8",
+              "=IFERROR(C8/B8,\"\")",
+              0.125
+            ],
+            [
+              "B9",
+              "='01 Facilities'!B12",
+              17
+            ],
+            [
+              "C9",
+              "='01 Facilities'!D12",
+              3
+            ],
+            [
+              "D9",
+              "='01 Facilities'!E12",
+              110
+            ],
+            [
+              "E9",
+              "='01 Facilities'!F12",
+              73
+            ],
+            [
+              "F9",
+              "=IF('02 Population'!B9=\"\",\"\",'02 Population'!B9)",
+              746406
+            ],
+            [
+              "G9",
+              "=IF(OR(F9=\"\",F9=0),\"\",(B9+D9+E9)/F9*100000)",
+              26.79506863556831
+            ],
+            [
+              "H9",
+              "=IFERROR(C9/B9,\"\")",
+              0.17647058823529413
+            ],
+            [
+              "B10",
+              "='01 Facilities'!B13",
+              28
+            ],
+            [
+              "C10",
+              "='01 Facilities'!D13",
+              3
+            ],
+            [
+              "D10",
+              "='01 Facilities'!E13",
+              174
+            ],
+            [
+              "E10",
+              "='01 Facilities'!F13",
+              128
+            ],
+            [
+              "F10",
+              "=IF('02 Population'!B10=\"\",\"\",'02 Population'!B10)",
+              1404997
+            ],
+            [
+              "G10",
+              "=IF(OR(F10=\"\",F10=0),\"\",(B10+D10+E10)/F10*100000)",
+              23.487594635433386
+            ],
+            [
+              "H10",
+              "=IFERROR(C10/B10,\"\")",
+              0.10714285714285714
+            ],
+            [
+              "B11",
+              "='01 Facilities'!B14",
+              17
+            ],
+            [
+              "C11",
+              "='01 Facilities'!D14",
+              3
+            ],
+            [
+              "D11",
+              "='01 Facilities'!E14",
+              68
+            ],
+            [
+              "E11",
+              "='01 Facilities'!F14",
+              56
+            ],
+            [
+              "F11",
+              "=IF('02 Population'!B11=\"\",\"\",'02 Population'!B11)",
+              592300
+            ],
+            [
+              "G11",
+              "=IF(OR(F11=\"\",F11=0),\"\",(B11+D11+E11)/F11*100000)",
+              23.805503967583995
+            ],
+            [
+              "H11",
+              "=IFERROR(C11/B11,\"\")",
+              0.17647058823529413
+            ],
+            [
+              "B12",
+              "='01 Facilities'!B15",
+              10
+            ],
+            [
+              "C12",
+              "='01 Facilities'!D15",
+              0
+            ],
+            [
+              "D12",
+              "='01 Facilities'!E15",
+              93
+            ],
+            [
+              "E12",
+              "='01 Facilities'!F15",
+              49
+            ],
+            [
+              "F12",
+              "=IF('02 Population'!B12=\"\",\"\",'02 Population'!B12)",
+              339174
+            ],
+            [
+              "G12",
+              "=IF(OR(F12=\"\",F12=0),\"\",(B12+D12+E12)/F12*100000)",
+              44.814755848030806
+            ],
+            [
+              "H12",
+              "=IFERROR(C12/B12,\"\")",
+              0
+            ],
+            [
+              "B13",
+              "='01 Facilities'!B16",
+              15
+            ],
+            [
+              "C13",
+              "='01 Facilities'!D16",
+              1
+            ],
+            [
+              "D13",
+              "='01 Facilities'!E16",
+              58
+            ],
+            [
+              "E13",
+              "='01 Facilities'!F16",
+              58
+            ],
+            [
+              "F13",
+              "=IF('02 Population'!B13=\"\",\"\",'02 Population'!B13)",
+              595822
+            ],
+            [
+              "G13",
+              "=IF(OR(F13=\"\",F13=0),\"\",(B13+D13+E13)/F13*100000)",
+              21.98643218947941
+            ],
+            [
+              "H13",
+              "=IFERROR(C13/B13,\"\")",
+              0.06666666666666667
+            ],
+            [
+              "B14",
+              "='01 Facilities'!B17",
+              11
+            ],
+            [
+              "C14",
+              "='01 Facilities'!D17",
+              0
+            ],
+            [
+              "D14",
+              "='01 Facilities'!E17",
+              42
+            ],
+            [
+              "E14",
+              "='01 Facilities'!F17",
+              49
+            ],
+            [
+              "F14",
+              "=IF('02 Population'!B14=\"\",\"\",'02 Population'!B14)",
+              373577
+            ],
+            [
+              "G14",
+              "=IF(OR(F14=\"\",F14=0),\"\",(B14+D14+E14)/F14*100000)",
+              27.303608091504564
+            ],
+            [
+              "H14",
+              "=IFERROR(C14/B14,\"\")",
+              0
+            ]
+          ],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "08 Sources",
+          "dimension": "A1:C16",
+          "rows": 16,
+          "columns": 3,
+          "populated_range": "A1:C16",
+          "header_row": 1,
+          "populated_cells": 48,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 13,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        }
+      ],
+      "format": "OOXML XLSX",
+      "cell_snapshot": "cells_A.json"
+    },
+    {
+      "id": "blueprint",
+      "name": "MedCura_AI_Visual_Research_and_Codex_Blueprint.pdf",
+      "size": 134704,
+      "sha256": "2f2e6b4314e7fcd6161735d6dcee987691d7dd5cef2cae93fca0dbdbde92e7da",
+      "parsing_status": "parsed",
+      "source_path": "data/raw/MedCura_AI_Visual_Research_and_Codex_Blueprint.pdf",
+      "issues": [],
+      "format": "PDF",
+      "pages": 17,
+      "metadata": {},
+      "extraction": "pages_blueprint.json",
+      "tables_detected": 20
+    },
+    {
+      "id": "B",
+      "name": "اكسل ٢ جيميناي.xlsx",
+      "size": 27791,
+      "sha256": "275eef22b7cae4eeff40c671a39932ad80fecc5a9aacef386d902e1aa2a9ab60",
+      "parsing_status": "parsed",
+      "source_path": "data/raw/اكسل ٢ جيميناي.xlsx",
+      "issues": [],
+      "metadata": {
+        "creator": "openpyxl",
+        "title": null,
+        "description": null,
+        "created": "2026-11-18 20:42:51",
+        "modified": "2026-11-18 20:42:52",
+        "lastModifiedBy": null
+      },
+      "sheets": [
+        {
+          "name": "START HERE",
+          "dimension": "A1:C12",
+          "rows": 12,
+          "columns": 3,
+          "populated_range": "A1:C12",
+          "header_row": 1,
+          "populated_cells": 36,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 0,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "01 Facilities",
+          "dimension": "A1:H23",
+          "rows": 23,
+          "columns": 8,
+          "populated_range": "A1:H23",
+          "header_row": 4,
+          "populated_cells": 126,
+          "blank_cells_in_dimensions": 58,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 1,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "02 Population",
+          "dimension": "A1:F15",
+          "rows": 15,
+          "columns": 6,
+          "populated_range": "A1:F15",
+          "header_row": 1,
+          "populated_cells": 90,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 14,
+          "formula_count": 1,
+          "formulas": [
+            [
+              "B15",
+              "=SUM(B2:B14)",
+              32175224
+            ]
+          ],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "03 Insurance by Region",
+          "dimension": "A1:E15",
+          "rows": 15,
+          "columns": 5,
+          "populated_range": "A1:E15",
+          "header_row": 1,
+          "populated_cells": 75,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 14,
+          "formula_count": 1,
+          "formulas": [
+            [
+              "B15",
+              "=SUM(B2:B14)",
+              13000000
+            ]
+          ],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "04 Insurance National",
+          "dimension": "A1:D8",
+          "rows": 8,
+          "columns": 4,
+          "populated_range": "A1:D8",
+          "header_row": 3,
+          "populated_cells": 11,
+          "blank_cells_in_dimensions": 21,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 1,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "05 Workforce",
+          "dimension": "A1:F15",
+          "rows": 15,
+          "columns": 6,
+          "populated_range": "A1:F15",
+          "header_row": 1,
+          "populated_cells": 90,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 14,
+          "formula_count": 2,
+          "formulas": [
+            [
+              "B15",
+              "=SUM(B2:B14)",
+              129772
+            ],
+            [
+              "C15",
+              "=SUM(C2:C14)",
+              82721
+            ]
+          ],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "06 Competitors",
+          "dimension": "A1:H13",
+          "rows": 13,
+          "columns": 8,
+          "populated_range": "A1:H13",
+          "header_row": 1,
+          "populated_cells": 104,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 12,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "07 Regional Analysis",
+          "dimension": "A1:I15",
+          "rows": 15,
+          "columns": 9,
+          "populated_range": "A1:I15",
+          "header_row": 1,
+          "populated_cells": 135,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 0,
+          "formula_count": 98,
+          "formulas": [
+            [
+              "B2",
+              "='01 Facilities'!B5",
+              115
+            ],
+            [
+              "C2",
+              "='01 Facilities'!D5",
+              50
+            ],
+            [
+              "D2",
+              "='01 Facilities'!E5",
+              404
+            ],
+            [
+              "E2",
+              "='01 Facilities'!F5",
+              1171
+            ],
+            [
+              "F2",
+              "=IF('02 Population'!B2=\"\",\"\",'02 Population'!B2)",
+              8591748
+            ],
+            [
+              "G2",
+              "=IF(OR(F2=\"\",F2=0),\"\",(B2+D2+E2)/F2*100000)",
+              19.67003687724547
+            ],
+            [
+              "H2",
+              "=IFERROR(C2/B2,\"\")",
+              0.43478260869565216
+            ],
+            [
+              "B3",
+              "='01 Facilities'!B6",
+              99
+            ],
+            [
+              "C3",
+              "='01 Facilities'!D6",
+              41
+            ],
+            [
+              "D3",
+              "='01 Facilities'!E6",
+              318
+            ],
+            [
+              "E3",
+              "='01 Facilities'!F6",
+              880
+            ],
+            [
+              "F3",
+              "=IF('02 Population'!B3=\"\",\"\",'02 Population'!B3)",
+              8021463
+            ],
+            [
+              "G3",
+              "=IF(OR(F3=\"\",F3=0),\"\",(B3+D3+E3)/F3*100000)",
+              16.169120271451728
+            ],
+            [
+              "H3",
+              "=IFERROR(C3/B3,\"\")",
+              0.41414141414141414
+            ],
+            [
+              "B4",
+              "='01 Facilities'!B7",
+              87
+            ],
+            [
+              "C4",
+              "='01 Facilities'!D7",
+              38
+            ],
+            [
+              "D4",
+              "='01 Facilities'!E7",
+              229
+            ],
+            [
+              "E4",
+              "='01 Facilities'!F7",
+              476
+            ],
+            [
+              "F4",
+              "=IF('02 Population'!B4=\"\",\"\",'02 Population'!B4)",
+              5125254
+            ],
+            [
+              "G4",
+              "=IF(OR(F4=\"\",F4=0),\"\",(B4+D4+E4)/F4*100000)",
+              15.452892676148345
+            ],
+            [
+              "H4",
+              "=IFERROR(C4/B4,\"\")",
+              0.4367816091954023
+            ],
+            [
+              "B5",
+              "='01 Facilities'!B8",
+              33
+            ],
+            [
+              "C5",
+              "='01 Facilities'!D8",
+              10
+            ],
+            [
+              "D5",
+              "='01 Facilities'!E8",
+              154
+            ],
+            [
+              "E5",
+              "='01 Facilities'!F8",
+              182
+            ],
+            [
+              "F5",
+              "=IF('02 Population'!B5=\"\",\"\",'02 Population'!B5)",
+              2137983
+            ],
+            [
+              "G5",
+              "=IF(OR(F5=\"\",F5=0),\"\",(B5+D5+E5)/F5*100000)",
+              17.259257908037622
+            ],
+            [
+              "H5",
+              "=IFERROR(C5/B5,\"\")",
+              0.30303030303030304
+            ],
+            [
+              "B6",
+              "='01 Facilities'!B9",
+              25
+            ],
+            [
+              "C6",
+              "='01 Facilities'!D9",
+              4
+            ],
+            [
+              "D6",
+              "='01 Facilities'!E9",
+              156
+            ],
+            [
+              "E6",
+              "='01 Facilities'!F9",
+              146
+            ],
+            [
+              "F6",
+              "=IF('02 Population'!B6=\"\",\"\",'02 Population'!B6)",
+              1336179
+            ],
+            [
+              "G6",
+              "=IF(OR(F6=\"\",F6=0),\"\",(B6+D6+E6)/F6*100000)",
+              24.472768992777162
+            ],
+            [
+              "H6",
+              "=IFERROR(C6/B6,\"\")",
+              0.16
+            ],
+            [
+              "B7",
+              "='01 Facilities'!B10",
+              43
+            ],
+            [
+              "C7",
+              "='01 Facilities'!D10",
+              11
+            ],
+            [
+              "D7",
+              "='01 Facilities'!E10",
+              281
+            ],
+            [
+              "E7",
+              "='01 Facilities'!F10",
+              255
+            ],
+            [
+              "F7",
+              "=IF('02 Population'!B7=\"\",\"\",'02 Population'!B7)",
+              2024285
+            ],
+            [
+              "G7",
+              "=IF(OR(F7=\"\",F7=0),\"\",(B7+D7+E7)/F7*100000)",
+              28.602691814640725
+            ],
+            [
+              "H7",
+              "=IFERROR(C7/B7,\"\")",
+              0.2558139534883721
+            ],
+            [
+              "B8",
+              "='01 Facilities'!B11",
+              16
+            ],
+            [
+              "C8",
+              "='01 Facilities'!D11",
+              2
+            ],
+            [
+              "D8",
+              "='01 Facilities'!E11",
+              85
+            ],
+            [
+              "E8",
+              "='01 Facilities'!F11",
+              84
+            ],
+            [
+              "F8",
+              "=IF('02 Population'!B8=\"\",\"\",'02 Population'!B8)",
+              886036
+            ],
+            [
+              "G8",
+              "=IF(OR(F8=\"\",F8=0),\"\",(B8+D8+E8)/F8*100000)",
+              20.879512796319787
+            ],
+            [
+              "H8",
+              "=IFERROR(C8/B8,\"\")",
+              0.125
+            ],
+            [
+              "B9",
+              "='01 Facilities'!B12",
+              17
+            ],
+            [
+              "C9",
+              "='01 Facilities'!D12",
+              3
+            ],
+            [
+              "D9",
+              "='01 Facilities'!E12",
+              110
+            ],
+            [
+              "E9",
+              "='01 Facilities'!F12",
+              73
+            ],
+            [
+              "F9",
+              "=IF('02 Population'!B9=\"\",\"\",'02 Population'!B9)",
+              746406
+            ],
+            [
+              "G9",
+              "=IF(OR(F9=\"\",F9=0),\"\",(B9+D9+E9)/F9*100000)",
+              26.79506863556831
+            ],
+            [
+              "H9",
+              "=IFERROR(C9/B9,\"\")",
+              0.17647058823529413
+            ],
+            [
+              "B10",
+              "='01 Facilities'!B13",
+              28
+            ],
+            [
+              "C10",
+              "='01 Facilities'!D13",
+              3
+            ],
+            [
+              "D10",
+              "='01 Facilities'!E13",
+              174
+            ],
+            [
+              "E10",
+              "='01 Facilities'!F13",
+              128
+            ],
+            [
+              "F10",
+              "=IF('02 Population'!B10=\"\",\"\",'02 Population'!B10)",
+              1404997
+            ],
+            [
+              "G10",
+              "=IF(OR(F10=\"\",F10=0),\"\",(B10+D10+E10)/F10*100000)",
+              23.487594635433386
+            ],
+            [
+              "H10",
+              "=IFERROR(C10/B10,\"\")",
+              0.10714285714285714
+            ],
+            [
+              "B11",
+              "='01 Facilities'!B14",
+              17
+            ],
+            [
+              "C11",
+              "='01 Facilities'!D14",
+              3
+            ],
+            [
+              "D11",
+              "='01 Facilities'!E14",
+              68
+            ],
+            [
+              "E11",
+              "='01 Facilities'!F14",
+              56
+            ],
+            [
+              "F11",
+              "=IF('02 Population'!B11=\"\",\"\",'02 Population'!B11)",
+              592300
+            ],
+            [
+              "G11",
+              "=IF(OR(F11=\"\",F11=0),\"\",(B11+D11+E11)/F11*100000)",
+              23.805503967583995
+            ],
+            [
+              "H11",
+              "=IFERROR(C11/B11,\"\")",
+              0.17647058823529413
+            ],
+            [
+              "B12",
+              "='01 Facilities'!B15",
+              10
+            ],
+            [
+              "C12",
+              "='01 Facilities'!D15",
+              0
+            ],
+            [
+              "D12",
+              "='01 Facilities'!E15",
+              93
+            ],
+            [
+              "E12",
+              "='01 Facilities'!F15",
+              49
+            ],
+            [
+              "F12",
+              "=IF('02 Population'!B12=\"\",\"\",'02 Population'!B12)",
+              339174
+            ],
+            [
+              "G12",
+              "=IF(OR(F12=\"\",F12=0),\"\",(B12+D12+E12)/F12*100000)",
+              44.814755848030806
+            ],
+            [
+              "H12",
+              "=IFERROR(C12/B12,\"\")",
+              0
+            ],
+            [
+              "B13",
+              "='01 Facilities'!B16",
+              15
+            ],
+            [
+              "C13",
+              "='01 Facilities'!D16",
+              1
+            ],
+            [
+              "D13",
+              "='01 Facilities'!E16",
+              58
+            ],
+            [
+              "E13",
+              "='01 Facilities'!F16",
+              58
+            ],
+            [
+              "F13",
+              "=IF('02 Population'!B13=\"\",\"\",'02 Population'!B13)",
+              595822
+            ],
+            [
+              "G13",
+              "=IF(OR(F13=\"\",F13=0),\"\",(B13+D13+E13)/F13*100000)",
+              21.98643218947941
+            ],
+            [
+              "H13",
+              "=IFERROR(C13/B13,\"\")",
+              0.06666666666666667
+            ],
+            [
+              "B14",
+              "='01 Facilities'!B17",
+              11
+            ],
+            [
+              "C14",
+              "='01 Facilities'!D17",
+              0
+            ],
+            [
+              "D14",
+              "='01 Facilities'!E17",
+              42
+            ],
+            [
+              "E14",
+              "='01 Facilities'!F17",
+              49
+            ],
+            [
+              "F14",
+              "=IF('02 Population'!B14=\"\",\"\",'02 Population'!B14)",
+              373577
+            ],
+            [
+              "G14",
+              "=IF(OR(F14=\"\",F14=0),\"\",(B14+D14+E14)/F14*100000)",
+              27.303608091504564
+            ],
+            [
+              "H14",
+              "=IFERROR(C14/B14,\"\")",
+              0
+            ],
+            [
+              "B15",
+              "=SUM(B2:B14)",
+              516
+            ],
+            [
+              "C15",
+              "=SUM(C2:C14)",
+              166
+            ],
+            [
+              "D15",
+              "=SUM(D2:D14)",
+              2172
+            ],
+            [
+              "E15",
+              "=SUM(E2:E14)",
+              3607
+            ],
+            [
+              "F15",
+              "=SUM(F2:F14)",
+              32175224
+            ],
+            [
+              "G15",
+              "=(B15+D15+E15)/F15*100000",
+              19.564743356565288
+            ],
+            [
+              "H15",
+              "=C15/B15",
+              0.32170542635658916
+            ]
+          ],
+          "duplicate_nonempty_rows": 0
+        },
+        {
+          "name": "08 Sources",
+          "dimension": "A1:C18",
+          "rows": 18,
+          "columns": 3,
+          "populated_range": "A1:C18",
+          "header_row": 1,
+          "populated_cells": 54,
+          "blank_cells_in_dimensions": 0,
+          "hidden": false,
+          "merged_ranges": [],
+          "url_cells": 17,
+          "formula_count": 0,
+          "formulas": [],
+          "duplicate_nonempty_rows": 0
+        }
+      ],
+      "format": "OOXML XLSX",
+      "cell_snapshot": "cells_B.json"
+    },
+    {
+      "id": "guide",
+      "name": "دليل_محتوى_العرض_التقديمي_-_MedCura_AI.pdf",
+      "size": 521388,
+      "sha256": "a3a30ecbd5e561602eb0d163688af5fadc9f8826c54428da1fd8f6c1128519bb",
+      "parsing_status": "parsed",
+      "source_path": "data/raw/دليل_محتوى_العرض_التقديمي_-_MedCura_AI.pdf",
+      "issues": [
+        "Arabic PDF uses presentation forms and mixed visual order. Consult the original page for precise reading."
+      ],
+      "format": "PDF",
+      "pages": 6,
+      "metadata": {
+        "Title": "دليل محتوى العرض التقديمي — MedCura AI (2027–2029)",
+        "Creator": "Chromium",
+        "Producer": "Skia/PDF m136",
+        "CreationDate": "D:20261118213906+00'00'",
+        "ModDate": "D:20261118213906+00'00'"
+      },
+      "extraction": "pages_guide.json",
+      "tables_detected": 7
+    },
+    {
+      "id": "contract",
+      "name": "MedCura_AI_ONE_SHOT_CODEX_MASTER_PROMPT.md",
+      "size": 39041,
+      "sha256": "203149eb5eb0ea31d3a260d0ef79ed7c38ab661f536886551d19ab397966eb8d",
+      "parsing_status": "parsed",
+      "source_path": "MedCura_AI_ONE_SHOT_CODEX_MASTER_PROMPT.md",
+      "issues": [],
+      "format": "UTF-8 text",
+      "description": "User-adopted execution directive; pasted attachment originally named نص ملصق.txt."
+    }
+  ],
+  "unavailable_optional": [
+    "MedCura_AI_Codex_Master_Blueprint.md"
+  ],
+  "canonical_version": "regional-v1-e9466e5c222f2afb",
+  "integrity": "passed"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1080" height="660" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1080 660" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="medcura-title medcura-desc"><title id="medcura-title">Reorder review follows the data</title><desc id="medcura-desc">The order candidate targets a disclosed stock level. Actual purchasing requires authorized review.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1080" height="660"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-660)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1080" height="660" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,97%,95%); fill-rule: evenodd;"/>
+			<text x="48" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,1232) scale(1,-1)">MEDCURA AI   /   RESEARCH FIGURES</text>
+			<text x="857.1759999999999" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1232) scale(1,-1)">F06    /    SYNTHETIC_DEMO</text>
+			<path d="M 48,599 L 1032,599 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="548" style="font-family: Times-Bold; font-size: 43px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,1096) scale(1,-1)">Reorder review follows the data</text>
+			<text x="48" y="512" style="font-family: Helvetica; font-size: 19px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1024) scale(1,-1)">A recommendation depends on dated demand, supplier assumptions and inventory position.</text>
+			<path d="M 48,55 L 1032,55 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="25" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,50) scale(1,-1)">Decision rule from the execution directive, section 7. Parameters require branch validation.</text>
+			<rect x="48" y="356" width="280" height="120" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<rect x="48" y="356" width="4" height="120" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="63" y="446" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,892) scale(1,-1)">History available?</text>
+			<text x="63" y="419" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,838) scale(1,-1)">Check dated units, observed</text>
+			<text x="63" y="396" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,792) scale(1,-1)">days and coverage.</text>
+			<rect x="411" y="356" width="270" height="120" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="411" y="356" width="4" height="120" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="426" y="446" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,892) scale(1,-1)">Estimate usage</text>
+			<text x="426" y="419" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,838) scale(1,-1)">Compare rolling-origin</text>
+			<text x="426" y="396" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,792) scale(1,-1)">baselines and retain dated</text>
+			<text x="426" y="373" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,746) scale(1,-1)">errors.</text>
+			<rect x="761" y="356" width="270" height="120" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="761" y="356" width="4" height="120" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="776" y="446" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,892) scale(1,-1)">Compute threshold</text>
+			<text x="776" y="419" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,838) scale(1,-1)">Lead-time demand plus a</text>
+			<text x="776" y="396" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,792) scale(1,-1)">disclosed safety buffer.</text>
+			<path d="M 328,415 L 411,415 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="411 415, 402 419, 402 411" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<path d="M 681,415 L 761,415 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="761 415, 752 419, 752 411" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<path d="M 188,355 L 188,294 Z" style="stroke: rgb(57%,35%,9%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="188 294, 192 303, 184 303" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(57%,35%,9%); fill-rule: evenodd;"/>
+			<rect x="48" y="146" width="280" height="145" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="48" y="146" width="4" height="145" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="63" y="261" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,522) scale(1,-1)">Insufficient history</text>
+			<text x="63" y="234" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,468) scale(1,-1)">Show a manual review or</text>
+			<text x="63" y="211" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,422) scale(1,-1)">configured fallback. Leave</text>
+			<text x="63" y="188" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,376) scale(1,-1)">shortage probability</text>
+			<text x="63" y="165" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,330) scale(1,-1)">unavailable.</text>
+			<path d="M 896,355 L 896,294 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="896 294, 900 303, 892 303" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<rect x="761" y="146" width="270" height="145" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<rect x="761" y="146" width="4" height="145" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="776" y="261" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,522) scale(1,-1)">Position at threshold?</text>
+			<text x="776" y="234" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,468) scale(1,-1)">Above threshold: monitor. At</text>
+			<text x="776" y="211" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,422) scale(1,-1)">or below: size to target, pack</text>
+			<text x="776" y="188" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,376) scale(1,-1)">and MOQ.</text>
+			<path d="M 761,219 L 682,219 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="682 219, 691 215, 691 223" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<rect x="411" y="146" width="270" height="145" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="411" y="146" width="4" height="145" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="426" y="261" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,522) scale(1,-1)">Review order</text>
+			<text x="426" y="234" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,468) scale(1,-1)">Inspect expiry, capacity and</text>
+			<text x="426" y="211" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,422) scale(1,-1)">delivery timing before</text>
+			<text x="426" y="188" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,376) scale(1,-1)">approval.</text>
+			<text x="48" y="95" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,190) scale(1,-1)">Inventory position includes usable available stock and eligible inbound quantities counted once.</text>
+		</g>
+	</g>
+</svg>

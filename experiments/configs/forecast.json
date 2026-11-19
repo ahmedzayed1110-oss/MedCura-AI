@@ -1,0 +1,12 @@
+{
+  "config": {
+    "window": 14,
+    "alpha": 0.3,
+    "weekly_lag": 7
+  },
+  "coverage": 63,
+  "selection_end": "2026-11-11",
+  "holdout_start": "2026-11-12",
+  "cutoff": "2026-11-18",
+  "seed": "fixed seeded inventory history in apps/api/inventory.py"
+}

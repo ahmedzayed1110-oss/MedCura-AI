@@ -1,0 +1,2345 @@
+[
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A1",
+    "source_ref": "B · 01 Facilities!A1",
+    "value": "MEDCURA AI | SAUDI HEALTHCARE MARKET DATA (2024)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A2",
+    "source_ref": "B · 01 Facilities!A2",
+    "value": "13 administrative regions • Hospitals and healthcare facilities • Official MoH/GASTAT statistics (via DataPulse)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A4",
+    "source_ref": "B · 01 Facilities!A4",
+    "value": "Region",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B4",
+    "source_ref": "B · 01 Facilities!B4",
+    "value": "Hospitals total",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C4",
+    "source_ref": "B · 01 Facilities!C4",
+    "value": "Hospitals government",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D4",
+    "source_ref": "B · 01 Facilities!D4",
+    "value": "Hospitals private",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E4",
+    "source_ref": "B · 01 Facilities!E4",
+    "value": "Primary care centers (govt)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F4",
+    "source_ref": "B · 01 Facilities!F4",
+    "value": "Medical complexes (private)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G4",
+    "source_ref": "B · 01 Facilities!G4",
+    "value": "Standalone clinics",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H4",
+    "source_ref": "B · 01 Facilities!H4",
+    "value": "Year",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A5",
+    "source_ref": "B · 01 Facilities!A5",
+    "value": "Riyadh",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B5",
+    "source_ref": "B · 01 Facilities!B5",
+    "value": 115,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C5",
+    "source_ref": "B · 01 Facilities!C5",
+    "value": 65,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D5",
+    "source_ref": "B · 01 Facilities!D5",
+    "value": 50,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E5",
+    "source_ref": "B · 01 Facilities!E5",
+    "value": 404,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F5",
+    "source_ref": "B · 01 Facilities!F5",
+    "value": 1171,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G5",
+    "source_ref": "B · 01 Facilities!G5",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H5",
+    "source_ref": "B · 01 Facilities!H5",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A6",
+    "source_ref": "B · 01 Facilities!A6",
+    "value": "Makkah",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B6",
+    "source_ref": "B · 01 Facilities!B6",
+    "value": 99,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C6",
+    "source_ref": "B · 01 Facilities!C6",
+    "value": 58,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D6",
+    "source_ref": "B · 01 Facilities!D6",
+    "value": 41,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E6",
+    "source_ref": "B · 01 Facilities!E6",
+    "value": 318,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F6",
+    "source_ref": "B · 01 Facilities!F6",
+    "value": 880,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G6",
+    "source_ref": "B · 01 Facilities!G6",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H6",
+    "source_ref": "B · 01 Facilities!H6",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A7",
+    "source_ref": "B · 01 Facilities!A7",
+    "value": "Eastern Province",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B7",
+    "source_ref": "B · 01 Facilities!B7",
+    "value": 87,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C7",
+    "source_ref": "B · 01 Facilities!C7",
+    "value": 49,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D7",
+    "source_ref": "B · 01 Facilities!D7",
+    "value": 38,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E7",
+    "source_ref": "B · 01 Facilities!E7",
+    "value": 229,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F7",
+    "source_ref": "B · 01 Facilities!F7",
+    "value": 476,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G7",
+    "source_ref": "B · 01 Facilities!G7",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H7",
+    "source_ref": "B · 01 Facilities!H7",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A8",
+    "source_ref": "B · 01 Facilities!A8",
+    "value": "Madinah",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B8",
+    "source_ref": "B · 01 Facilities!B8",
+    "value": 33,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C8",
+    "source_ref": "B · 01 Facilities!C8",
+    "value": 23,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D8",
+    "source_ref": "B · 01 Facilities!D8",
+    "value": 10,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E8",
+    "source_ref": "B · 01 Facilities!E8",
+    "value": 154,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F8",
+    "source_ref": "B · 01 Facilities!F8",
+    "value": 182,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G8",
+    "source_ref": "B · 01 Facilities!G8",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H8",
+    "source_ref": "B · 01 Facilities!H8",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A9",
+    "source_ref": "B · 01 Facilities!A9",
+    "value": "Qassim",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B9",
+    "source_ref": "B · 01 Facilities!B9",
+    "value": 25,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C9",
+    "source_ref": "B · 01 Facilities!C9",
+    "value": 21,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D9",
+    "source_ref": "B · 01 Facilities!D9",
+    "value": 4,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E9",
+    "source_ref": "B · 01 Facilities!E9",
+    "value": 156,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F9",
+    "source_ref": "B · 01 Facilities!F9",
+    "value": 146,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G9",
+    "source_ref": "B · 01 Facilities!G9",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H9",
+    "source_ref": "B · 01 Facilities!H9",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A10",
+    "source_ref": "B · 01 Facilities!A10",
+    "value": "Asir",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B10",
+    "source_ref": "B · 01 Facilities!B10",
+    "value": 43,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C10",
+    "source_ref": "B · 01 Facilities!C10",
+    "value": 32,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D10",
+    "source_ref": "B · 01 Facilities!D10",
+    "value": 11,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E10",
+    "source_ref": "B · 01 Facilities!E10",
+    "value": 281,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F10",
+    "source_ref": "B · 01 Facilities!F10",
+    "value": 255,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G10",
+    "source_ref": "B · 01 Facilities!G10",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H10",
+    "source_ref": "B · 01 Facilities!H10",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A11",
+    "source_ref": "B · 01 Facilities!A11",
+    "value": "Tabuk",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B11",
+    "source_ref": "B · 01 Facilities!B11",
+    "value": 16,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C11",
+    "source_ref": "B · 01 Facilities!C11",
+    "value": 14,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D11",
+    "source_ref": "B · 01 Facilities!D11",
+    "value": 2,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E11",
+    "source_ref": "B · 01 Facilities!E11",
+    "value": 85,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F11",
+    "source_ref": "B · 01 Facilities!F11",
+    "value": 84,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G11",
+    "source_ref": "B · 01 Facilities!G11",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H11",
+    "source_ref": "B · 01 Facilities!H11",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A12",
+    "source_ref": "B · 01 Facilities!A12",
+    "value": "Hail",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B12",
+    "source_ref": "B · 01 Facilities!B12",
+    "value": 17,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C12",
+    "source_ref": "B · 01 Facilities!C12",
+    "value": 14,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D12",
+    "source_ref": "B · 01 Facilities!D12",
+    "value": 3,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E12",
+    "source_ref": "B · 01 Facilities!E12",
+    "value": 110,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F12",
+    "source_ref": "B · 01 Facilities!F12",
+    "value": 73,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G12",
+    "source_ref": "B · 01 Facilities!G12",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H12",
+    "source_ref": "B · 01 Facilities!H12",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A13",
+    "source_ref": "B · 01 Facilities!A13",
+    "value": "Jazan",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B13",
+    "source_ref": "B · 01 Facilities!B13",
+    "value": 28,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C13",
+    "source_ref": "B · 01 Facilities!C13",
+    "value": 25,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D13",
+    "source_ref": "B · 01 Facilities!D13",
+    "value": 3,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E13",
+    "source_ref": "B · 01 Facilities!E13",
+    "value": 174,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F13",
+    "source_ref": "B · 01 Facilities!F13",
+    "value": 128,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G13",
+    "source_ref": "B · 01 Facilities!G13",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H13",
+    "source_ref": "B · 01 Facilities!H13",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A14",
+    "source_ref": "B · 01 Facilities!A14",
+    "value": "Najran",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B14",
+    "source_ref": "B · 01 Facilities!B14",
+    "value": 17,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C14",
+    "source_ref": "B · 01 Facilities!C14",
+    "value": 14,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D14",
+    "source_ref": "B · 01 Facilities!D14",
+    "value": 3,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E14",
+    "source_ref": "B · 01 Facilities!E14",
+    "value": 68,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F14",
+    "source_ref": "B · 01 Facilities!F14",
+    "value": 56,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G14",
+    "source_ref": "B · 01 Facilities!G14",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H14",
+    "source_ref": "B · 01 Facilities!H14",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A15",
+    "source_ref": "B · 01 Facilities!A15",
+    "value": "Al-Baha",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B15",
+    "source_ref": "B · 01 Facilities!B15",
+    "value": 10,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C15",
+    "source_ref": "B · 01 Facilities!C15",
+    "value": 10,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D15",
+    "source_ref": "B · 01 Facilities!D15",
+    "value": 0,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E15",
+    "source_ref": "B · 01 Facilities!E15",
+    "value": 93,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F15",
+    "source_ref": "B · 01 Facilities!F15",
+    "value": 49,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G15",
+    "source_ref": "B · 01 Facilities!G15",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H15",
+    "source_ref": "B · 01 Facilities!H15",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A16",
+    "source_ref": "B · 01 Facilities!A16",
+    "value": "Al-Jouf",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B16",
+    "source_ref": "B · 01 Facilities!B16",
+    "value": 15,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C16",
+    "source_ref": "B · 01 Facilities!C16",
+    "value": 14,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D16",
+    "source_ref": "B · 01 Facilities!D16",
+    "value": 1,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E16",
+    "source_ref": "B · 01 Facilities!E16",
+    "value": 58,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F16",
+    "source_ref": "B · 01 Facilities!F16",
+    "value": 58,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G16",
+    "source_ref": "B · 01 Facilities!G16",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H16",
+    "source_ref": "B · 01 Facilities!H16",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A17",
+    "source_ref": "B · 01 Facilities!A17",
+    "value": "Northern Borders",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B17",
+    "source_ref": "B · 01 Facilities!B17",
+    "value": 11,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C17",
+    "source_ref": "B · 01 Facilities!C17",
+    "value": 11,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D17",
+    "source_ref": "B · 01 Facilities!D17",
+    "value": 0,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E17",
+    "source_ref": "B · 01 Facilities!E17",
+    "value": 42,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F17",
+    "source_ref": "B · 01 Facilities!F17",
+    "value": 49,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G17",
+    "source_ref": "B · 01 Facilities!G17",
+    "value": "N/A (Included in complexes)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H17",
+    "source_ref": "B · 01 Facilities!H17",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A18",
+    "source_ref": "B · 01 Facilities!A18",
+    "value": "SAUDI ARABIA",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "B18",
+    "source_ref": "B · 01 Facilities!B18",
+    "value": 516,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "C18",
+    "source_ref": "B · 01 Facilities!C18",
+    "value": 350,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "D18",
+    "source_ref": "B · 01 Facilities!D18",
+    "value": 166,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "E18",
+    "source_ref": "B · 01 Facilities!E18",
+    "value": 2172,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "F18",
+    "source_ref": "B · 01 Facilities!F18",
+    "value": 3607,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "G18",
+    "source_ref": "B · 01 Facilities!G18",
+    "value": "N/A (Avoid double count)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "H18",
+    "source_ref": "B · 01 Facilities!H18",
+    "value": 2024,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A20",
+    "source_ref": "B · 01 Facilities!A20",
+    "value": "Standalone clinics are NOT separately verified in these sources. Do not treat medical complexes as standalone clinics or add them twice.",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A21",
+    "source_ref": "B · 01 Facilities!A21",
+    "value": "Hospital total includes government and private hospitals. PHC = public primary care centers; complexes = private medical complexes.",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A22",
+    "source_ref": "B · 01 Facilities!A22",
+    "value": "Source: MoH Statistical Yearbook 2024 / GASTAT healthcare establishments statistics; regional transcription cross-checked with DataPulse.",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "01 Facilities",
+    "cell": "A23",
+    "source_ref": "B · 01 Facilities!A23",
+    "value": "https://datapulseactive.com/en/data/society/",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://datapulseactive.com/en/data/society/"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A1",
+    "source_ref": "B · 02 Population!A1",
+    "value": "Region",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B1",
+    "source_ref": "B · 02 Population!B1",
+    "value": "Population",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C1",
+    "source_ref": "B · 02 Population!C1",
+    "value": "Population year",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D1",
+    "source_ref": "B · 02 Population!D1",
+    "value": "Growth rate %",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E1",
+    "source_ref": "B · 02 Population!E1",
+    "value": "Source URL",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F1",
+    "source_ref": "B · 02 Population!F1",
+    "value": "Verification status",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A2",
+    "source_ref": "B · 02 Population!A2",
+    "value": "Riyadh",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B2",
+    "source_ref": "B · 02 Population!B2",
+    "value": 8591748,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C2",
+    "source_ref": "B · 02 Population!C2",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D2",
+    "source_ref": "B · 02 Population!D2",
+    "value": 0.027229,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E2",
+    "source_ref": "B · 02 Population!E2",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F2",
+    "source_ref": "B · 02 Population!F2",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A3",
+    "source_ref": "B · 02 Population!A3",
+    "value": "Makkah",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B3",
+    "source_ref": "B · 02 Population!B3",
+    "value": 8021463,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C3",
+    "source_ref": "B · 02 Population!C3",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D3",
+    "source_ref": "B · 02 Population!D3",
+    "value": 0.01966,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E3",
+    "source_ref": "B · 02 Population!E3",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F3",
+    "source_ref": "B · 02 Population!F3",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A4",
+    "source_ref": "B · 02 Population!A4",
+    "value": "Eastern Province",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B4",
+    "source_ref": "B · 02 Population!B4",
+    "value": 5125254,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C4",
+    "source_ref": "B · 02 Population!C4",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D4",
+    "source_ref": "B · 02 Population!D4",
+    "value": 0.028741,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E4",
+    "source_ref": "B · 02 Population!E4",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F4",
+    "source_ref": "B · 02 Population!F4",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A5",
+    "source_ref": "B · 02 Population!A5",
+    "value": "Madinah",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B5",
+    "source_ref": "B · 02 Population!B5",
+    "value": 2137983,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C5",
+    "source_ref": "B · 02 Population!C5",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D5",
+    "source_ref": "B · 02 Population!D5",
+    "value": 0.023311,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E5",
+    "source_ref": "B · 02 Population!E5",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F5",
+    "source_ref": "B · 02 Population!F5",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A6",
+    "source_ref": "B · 02 Population!A6",
+    "value": "Qassim",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B6",
+    "source_ref": "B · 02 Population!B6",
+    "value": 1336179,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C6",
+    "source_ref": "B · 02 Population!C6",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D6",
+    "source_ref": "B · 02 Population!D6",
+    "value": 0.021533,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E6",
+    "source_ref": "B · 02 Population!E6",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F6",
+    "source_ref": "B · 02 Population!F6",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A7",
+    "source_ref": "B · 02 Population!A7",
+    "value": "Asir",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B7",
+    "source_ref": "B · 02 Population!B7",
+    "value": 2024285,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C7",
+    "source_ref": "B · 02 Population!C7",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D7",
+    "source_ref": "B · 02 Population!D7",
+    "value": 0.027031,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E7",
+    "source_ref": "B · 02 Population!E7",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F7",
+    "source_ref": "B · 02 Population!F7",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A8",
+    "source_ref": "B · 02 Population!A8",
+    "value": "Tabuk",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B8",
+    "source_ref": "B · 02 Population!B8",
+    "value": 886036,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C8",
+    "source_ref": "B · 02 Population!C8",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D8",
+    "source_ref": "B · 02 Population!D8",
+    "value": 0.02771,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E8",
+    "source_ref": "B · 02 Population!E8",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F8",
+    "source_ref": "B · 02 Population!F8",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A9",
+    "source_ref": "B · 02 Population!A9",
+    "value": "Hail",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B9",
+    "source_ref": "B · 02 Population!B9",
+    "value": 746406,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C9",
+    "source_ref": "B · 02 Population!C9",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D9",
+    "source_ref": "B · 02 Population!D9",
+    "value": 0.029199,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E9",
+    "source_ref": "B · 02 Population!E9",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F9",
+    "source_ref": "B · 02 Population!F9",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A10",
+    "source_ref": "B · 02 Population!A10",
+    "value": "Jazan",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B10",
+    "source_ref": "B · 02 Population!B10",
+    "value": 1404997,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C10",
+    "source_ref": "B · 02 Population!C10",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D10",
+    "source_ref": "B · 02 Population!D10",
+    "value": 0.023558,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E10",
+    "source_ref": "B · 02 Population!E10",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F10",
+    "source_ref": "B · 02 Population!F10",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A11",
+    "source_ref": "B · 02 Population!A11",
+    "value": "Najran",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B11",
+    "source_ref": "B · 02 Population!B11",
+    "value": 592300,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C11",
+    "source_ref": "B · 02 Population!C11",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D11",
+    "source_ref": "B · 02 Population!D11",
+    "value": 0.028282,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E11",
+    "source_ref": "B · 02 Population!E11",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F11",
+    "source_ref": "B · 02 Population!F11",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A12",
+    "source_ref": "B · 02 Population!A12",
+    "value": "Al-Baha",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B12",
+    "source_ref": "B · 02 Population!B12",
+    "value": 339174,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C12",
+    "source_ref": "B · 02 Population!C12",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D12",
+    "source_ref": "B · 02 Population!D12",
+    "value": 0.021599,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E12",
+    "source_ref": "B · 02 Population!E12",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F12",
+    "source_ref": "B · 02 Population!F12",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A13",
+    "source_ref": "B · 02 Population!A13",
+    "value": "Al-Jouf",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B13",
+    "source_ref": "B · 02 Population!B13",
+    "value": 595822,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C13",
+    "source_ref": "B · 02 Population!C13",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D13",
+    "source_ref": "B · 02 Population!D13",
+    "value": 0.024683,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E13",
+    "source_ref": "B · 02 Population!E13",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F13",
+    "source_ref": "B · 02 Population!F13",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A14",
+    "source_ref": "B · 02 Population!A14",
+    "value": "Northern Borders",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B14",
+    "source_ref": "B · 02 Population!B14",
+    "value": 373577,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C14",
+    "source_ref": "B · 02 Population!C14",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D14",
+    "source_ref": "B · 02 Population!D14",
+    "value": 0.027397,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E14",
+    "source_ref": "B · 02 Population!E14",
+    "value": "https://portal.saudicensus.sa/portal | https://www.stats.gov.sa",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://portal.saudicensus.sa/portal",
+      "https://www.stats.gov.sa"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F14",
+    "source_ref": "B · 02 Population!F14",
+    "value": "Verified (GASTAT Census 2022)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "A15",
+    "source_ref": "B · 02 Population!A15",
+    "value": "SAUDI ARABIA (TOTAL)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "B15",
+    "source_ref": "B · 02 Population!B15",
+    "value": 32175224,
+    "formula": "=SUM(B2:B14)",
+    "cached_value": 32175224,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "C15",
+    "source_ref": "B · 02 Population!C15",
+    "value": 2022,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "D15",
+    "source_ref": "B · 02 Population!D15",
+    "value": 0.0248,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "E15",
+    "source_ref": "B · 02 Population!E15",
+    "value": "https://www.stats.gov.sa/documents/20117/2435273/Population+Estimates+Publication+2024+EN.pdf",
+    "formula": null,
+    "cached_value": null,
+    "urls": [
+      "https://www.stats.gov.sa/documents/20117/2435273/Population+Estimates+Publication+2024+EN.pdf"
+    ]
+  },
+  {
+    "book": "B",
+    "sheet": "02 Population",
+    "cell": "F15",
+    "source_ref": "B · 02 Population!F15",
+    "value": "Verified (2022 Census = 32,175,224; Mid-2024 National Est. = 35,300,280)",
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B2",
+    "source_ref": "B · 03 Insurance by Region!B2",
+    "value": 3949535,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B3",
+    "source_ref": "B · 03 Insurance by Region!B3",
+    "value": 3197009,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B4",
+    "source_ref": "B · 03 Insurance by Region!B4",
+    "value": 1875931,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B5",
+    "source_ref": "B · 03 Insurance by Region!B5",
+    "value": 732342,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B6",
+    "source_ref": "B · 03 Insurance by Region!B6",
+    "value": 524893,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B7",
+    "source_ref": "B · 03 Insurance by Region!B7",
+    "value": 881993,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B8",
+    "source_ref": "B · 03 Insurance by Region!B8",
+    "value": 317903,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B9",
+    "source_ref": "B · 03 Insurance by Region!B9",
+    "value": 275761,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B10",
+    "source_ref": "B · 03 Insurance by Region!B10",
+    "value": 492072,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B11",
+    "source_ref": "B · 03 Insurance by Region!B11",
+    "value": 215895,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B12",
+    "source_ref": "B · 03 Insurance by Region!B12",
+    "value": 157704,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B13",
+    "source_ref": "B · 03 Insurance by Region!B13",
+    "value": 216393,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B14",
+    "source_ref": "B · 03 Insurance by Region!B14",
+    "value": 162569,
+    "formula": null,
+    "cached_value": null,
+    "urls": []
+  },
+  {
+    "book": "B",
+    "sheet": "03 Insurance by Region",
+    "cell": "B15",
+    "source_ref": "B · 03 Insurance by Region!B15",
+    "value": 13000000,
+    "formula": "=SUM(B2:B14)",
+    "cached_value": 13000000,
+    "urls": []
+  }
+]

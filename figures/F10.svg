@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1080" height="660" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1080 660" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="medcura-title medcura-desc"><title id="medcura-title">Which claim can each record support?</title><desc id="medcura-desc">The record type limits the scope of each claim. Synthetic events cannot establish measured pilot effects.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1080" height="660"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-660)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1080" height="660" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,97%,95%); fill-rule: evenodd;"/>
+			<text x="48" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,1232) scale(1,-1)">MEDCURA AI   /   RESEARCH FIGURES</text>
+			<text x="919.29" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1232) scale(1,-1)">F10    /    DERIVED</text>
+			<path d="M 48,599 L 1032,599 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="548" style="font-family: Times-Bold; font-size: 43px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,1096) scale(1,-1)">Which claim can each record support?</text>
+			<text x="48" y="512" style="font-family: Helvetica; font-size: 19px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1024) scale(1,-1)">Read the evidence label together with its source, scope and observation period.</text>
+			<path d="M 48,55 L 1032,55 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="25" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,50) scale(1,-1)">Evidence taxonomy from the execution directive, section 1. Current pilot results: not measured.</text>
+			<text x="48" y="453" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,906) scale(1,-1)">OBSERVED_PUBLIC</text>
+			<text x="319" y="453" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,906) scale(1,-1)">Reported facility count</text>
+			<text x="704" y="453" style="font-family: Helvetica; font-size: 17px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,906) scale(1,-1)">Workbook cell and year</text>
+			<path d="M 48,438 L 1032,438 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="399" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,798) scale(1,-1)">DERIVED</text>
+			<text x="319" y="399" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,798) scale(1,-1)">Regional share or density</text>
+			<text x="704" y="399" style="font-family: Helvetica; font-size: 17px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,798) scale(1,-1)">Numerator, denominator and years</text>
+			<path d="M 48,384 L 1032,384 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="345" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,690) scale(1,-1)">VENDOR_CLAIM</text>
+			<text x="319" y="345" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,690) scale(1,-1)">Advertised product capability</text>
+			<text x="704" y="345" style="font-family: Helvetica; font-size: 17px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,690) scale(1,-1)">Dated vendor source</text>
+			<path d="M 48,330 L 1032,330 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="291" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,582) scale(1,-1)">SCENARIO</text>
+			<text x="319" y="291" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,582) scale(1,-1)">Assumed price or conversion</text>
+			<text x="704" y="291" style="font-family: Helvetica; font-size: 17px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,582) scale(1,-1)">Editable assumption and range</text>
+			<path d="M 48,276 L 1032,276 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="237" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,474) scale(1,-1)">SYNTHETIC_DEMO</text>
+			<text x="319" y="237" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,474) scale(1,-1)">Simulated ledger or backtest</text>
+			<text x="704" y="237" style="font-family: Helvetica; font-size: 17px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,474) scale(1,-1)">Generator, seed and cutoff</text>
+			<path d="M 48,222 L 1032,222 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="183" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,366) scale(1,-1)">PILOT_MEASURED</text>
+			<text x="319" y="183" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,366) scale(1,-1)">Authorized branch outcome</text>
+			<text x="704" y="183" style="font-family: Helvetica; font-size: 17px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,366) scale(1,-1)">Evidence metadata, scope and audit</text>
+			<path d="M 48,168 L 1032,168 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="129" style="font-family: Helvetica-Bold; font-size: 17px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,258) scale(1,-1)">UNKNOWN</text>
+			<text x="319" y="129" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,258) scale(1,-1)">Unreported price or missing day</text>
+			<text x="704" y="129" style="font-family: Helvetica; font-size: 17px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,258) scale(1,-1)">Retain the reason for missingness</text>
+			<path d="M 48,114 L 1032,114 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+		</g>
+	</g>
+</svg>

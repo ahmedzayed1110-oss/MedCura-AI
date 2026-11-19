@@ -1,0 +1,12 @@
+flowchart LR
+  A["Receipt, issue or count"] --> B{"Permission, SKU, units and lot valid?"}
+  B -->|Yes| C["Append immutable ledger event"]
+  B -->|No| X["Reject transaction and retain balance"]
+  C --> D["Calculate usable balance and inventory position"]
+  D --> E["Estimate demand and expiry exposure"]
+  E --> F["Review candidate reorder or transfer"]
+  F --> G{"Human approval?"}
+  G -->|Yes| H["Record order or transfer lifecycle"]
+  G -->|No| I["Keep stock unchanged"]
+  H --> J["Measure later outcomes in authorized pilot"]
+

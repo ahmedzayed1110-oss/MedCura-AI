@@ -1,0 +1,97 @@
+{
+  "complexes": {
+    "value": 3607,
+    "source_ref": "A · 01 Facilities!F5, A · 01 Facilities!F6, A · 01 Facilities!F7, A · 01 Facilities!F10, A · 01 Facilities!F8, A · 01 Facilities!F9, A · 01 Facilities!F13, A · 01 Facilities!F11, A · 01 Facilities!F12, A · 01 Facilities!F16, A · 01 Facilities!F14, A · 01 Facilities!F15, A · 01 Facilities!F17",
+    "reference_year": 2024,
+    "evidence_level": "DERIVED",
+    "unit": "private medical complexes",
+    "notes": "Sum of distinct administrative regions.",
+    "calculation_id": "sum-complexes-v1",
+    "citation_url": "https://www.moh.gov.sa/en/Ministry/Statistics/book/Documents/Statistical-Yearbook-2024.xlsx"
+  },
+  "top3": {
+    "value": 2527,
+    "source_ref": "A · 01 Facilities!F5, A · 01 Facilities!F6, A · 01 Facilities!F7",
+    "reference_year": 2024,
+    "evidence_level": "DERIVED",
+    "unit": "private medical complexes",
+    "notes": "Sum of distinct administrative regions.",
+    "calculation_id": "sum-top3-v1",
+    "citation_url": "https://www.moh.gov.sa/en/Ministry/Statistics/book/Documents/Statistical-Yearbook-2024.xlsx"
+  },
+  "top7": {
+    "value": 3238,
+    "source_ref": "A · 01 Facilities!F5, A · 01 Facilities!F6, A · 01 Facilities!F7, A · 01 Facilities!F10, A · 01 Facilities!F8, A · 01 Facilities!F9, A · 01 Facilities!F13",
+    "reference_year": 2024,
+    "evidence_level": "DERIVED",
+    "unit": "private medical complexes",
+    "notes": "Sum of distinct administrative regions.",
+    "calculation_id": "sum-top7-v1",
+    "citation_url": "https://www.moh.gov.sa/en/Ministry/Statistics/book/Documents/Statistical-Yearbook-2024.xlsx"
+  },
+  "population": {
+    "value": 32175224,
+    "source_ref": "A · 02 Population!B2, A · 02 Population!B3, A · 02 Population!B4, A · 02 Population!B7, A · 02 Population!B5, A · 02 Population!B6, A · 02 Population!B10, A · 02 Population!B8, A · 02 Population!B9, A · 02 Population!B13, A · 02 Population!B11, A · 02 Population!B12, A · 02 Population!B14",
+    "reference_year": 2022,
+    "evidence_level": "DERIVED",
+    "unit": "residents",
+    "notes": "Sum of distinct administrative regions.",
+    "calculation_id": "sum-population-v1",
+    "citation_url": "https://www.moh.gov.sa/Ministry/Statistics/book/Documents/Statistical-Yearbook-2023.pdf"
+  },
+  "private_hospitals": {
+    "value": 166,
+    "source_ref": "A · 01 Facilities!D5, A · 01 Facilities!D6, A · 01 Facilities!D7, A · 01 Facilities!D10, A · 01 Facilities!D8, A · 01 Facilities!D9, A · 01 Facilities!D13, A · 01 Facilities!D11, A · 01 Facilities!D12, A · 01 Facilities!D16, A · 01 Facilities!D14, A · 01 Facilities!D15, A · 01 Facilities!D17",
+    "reference_year": 2024,
+    "evidence_level": "DERIVED",
+    "unit": "hospitals",
+    "notes": "Sum of distinct administrative regions.",
+    "calculation_id": "sum-private_hospitals-v1",
+    "citation_url": "https://www.moh.gov.sa/en/Ministry/Statistics/book/Documents/Statistical-Yearbook-2024.xlsx"
+  },
+  "regions": {
+    "value": 13,
+    "source_ref": "A · 01 Facilities!F5, A · 01 Facilities!F6, A · 01 Facilities!F7, A · 01 Facilities!F10, A · 01 Facilities!F8, A · 01 Facilities!F9, A · 01 Facilities!F13, A · 01 Facilities!F11, A · 01 Facilities!F12, A · 01 Facilities!F16, A · 01 Facilities!F14, A · 01 Facilities!F15, A · 01 Facilities!F17",
+    "reference_year": 2024,
+    "evidence_level": "DERIVED",
+    "unit": "regions",
+    "notes": "Distinct region identifiers.",
+    "calculation_id": "count-distinct-regions",
+    "citation_url": "https://www.moh.gov.sa/en/Ministry/Statistics/book/Documents/Statistical-Yearbook-2024.xlsx"
+  },
+  "top3_share": {
+    "value": 70.05822012752981,
+    "source_ref": "A · 01 Facilities!F5, A · 01 Facilities!F6, A · 01 Facilities!F7 / A · 01 Facilities!F5, A · 01 Facilities!F6, A · 01 Facilities!F7, A · 01 Facilities!F10, A · 01 Facilities!F8, A · 01 Facilities!F9, A · 01 Facilities!F13, A · 01 Facilities!F11, A · 01 Facilities!F12, A · 01 Facilities!F16, A · 01 Facilities!F14, A · 01 Facilities!F15, A · 01 Facilities!F17",
+    "reference_year": 2024,
+    "evidence_level": "DERIVED",
+    "unit": "%",
+    "notes": "Share of all 2024 private medical complexes.",
+    "calculation_id": "top3/national*100",
+    "citation_url": "https://www.moh.gov.sa/en/Ministry/Statistics/book/Documents/Statistical-Yearbook-2024.xlsx",
+    "numerator": 2527,
+    "denominator": 3607
+  },
+  "top7_share": {
+    "value": 89.76989187690602,
+    "source_ref": "A · 01 Facilities!F5, A · 01 Facilities!F6, A · 01 Facilities!F7, A · 01 Facilities!F10, A · 01 Facilities!F8, A · 01 Facilities!F9, A · 01 Facilities!F13 / A · 01 Facilities!F5, A · 01 Facilities!F6, A · 01 Facilities!F7, A · 01 Facilities!F10, A · 01 Facilities!F8, A · 01 Facilities!F9, A · 01 Facilities!F13, A · 01 Facilities!F11, A · 01 Facilities!F12, A · 01 Facilities!F16, A · 01 Facilities!F14, A · 01 Facilities!F15, A · 01 Facilities!F17",
+    "reference_year": 2024,
+    "evidence_level": "DERIVED",
+    "unit": "%",
+    "notes": "Share of all 2024 private medical complexes.",
+    "calculation_id": "top7/national*100",
+    "citation_url": "https://www.moh.gov.sa/en/Ministry/Statistics/book/Documents/Statistical-Yearbook-2024.xlsx",
+    "numerator": 3238,
+    "denominator": 3607
+  },
+  "insured_q1_2026": {
+    "value": 14500000,
+    "source_ref": "A · 04 Insurance National!B5",
+    "reference_year": "Q1 2026",
+    "evidence_level": "OBSERVED_PUBLIC",
+    "unit": "beneficiaries",
+    "notes": "National health insurance beneficiaries, publication date 2026-09-08.",
+    "calculation_id": null,
+    "citation_url": "https://www.ia.gov.sa/en/media-center/news/128",
+    "verification_status": "primary corroborated"
+  }
+}

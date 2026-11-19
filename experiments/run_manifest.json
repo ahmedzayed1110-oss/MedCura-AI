@@ -1,0 +1,100 @@
+{
+  "generated_utc": "2026-11-19T11:11:47.006499+00:00",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.1",
+  "node": "v24.22.3",
+  "packages": {
+    "matplotlib": "3.10.7",
+    "numpy": "2.3.1",
+    "pillow": "12.0.0"
+  },
+  "missing_raw_ids": [],
+  "source_manifest_sha256": "17bc984fb1fe898021dd8482ac9585f91844f0b50d17c1fad099e31bdd71f3c3",
+  "dataset": "regional-v1-e9466e5c222f2afb",
+  "commands": [
+    {
+      "command": "python -X utf8 scripts/ingest.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -X utf8 scripts/benchmark.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -X utf8 scripts/stress.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python -X utf8 scripts/study_assets.py",
+      "exit_code": 0
+    }
+  ],
+  "counts": {
+    "regions": 13,
+    "lineage": 231,
+    "conflicts": 59,
+    "figures": 12,
+    "tables": 8
+  },
+  "artifacts": {
+    "experiments/configs/forecast.json": "deb1e4a92b81d7474c240b973a1531a568902c26bb628c0723e967ffed8969cb",
+    "experiments/runs/backtest.json": "5eb559e75cc028f956d28d3aa84e58e9767c41fcb85cfdc12b791a744d87a9fb",
+    "experiments/runs/stress.json": "e6a2f748f446e6e38a23caf8729e7a97855f5f9cad73b3449aa0f41ff3ee50e4",
+    "experiments/runs/T04_scenario_sensitivity.csv": "ec798cf180db10f7a9969ab6d50870e480570fa699be2fc4eca51db1b0eba2fa",
+    "experiments/runs/T05.csv": "fc642633b7100897d5c7fcae18a39b25d8eb3e42490fac3838e2ecc51dbba896",
+    "logs/benchmark.py.log": "69bedf0d17d9ae531f6da66f5a6a8f55fa375c0bc2dc063933cbede7a9855a1b",
+    "logs/ingest.py.log": "6698998f597d625a0341916b9411c9d5ca1523a838945f7ff5cf66b0abc9e7b2",
+    "logs/stress.py.log": "05f14fc710d17bb059257b0aa6e9fbab54364fe7023c8fafab2e581b0653ee65",
+    "logs/study_assets.py.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/captions/FIGURE_REGISTER.md": "9a5f02fcc54b52a8d26e7104192ae0700d8be6fab122d742f26dc785de00b233",
+    "results/figures/contact-sheet.png": "f05866967b83c798a6bd1cacb5fbd9e76f59110e4f75b211fa04c774464ea00e",
+    "results/figures/F01.pdf": "2a9970b4590c12f527d9fcbf172f46b5fb5f0928fbb598b4d0000230824bedcc",
+    "results/figures/F01.png": "c90d56690fa52179e6944f1b13910387d1c6b227608e04f7d539980b7d69b6bd",
+    "results/figures/F01.svg": "3ba78ce6196b9a20fa7b7f46314cffa19a1257a3adcd1c6bcaec87bffe90f283",
+    "results/figures/F02.pdf": "6a6d50afbbd8ee600c33e05df17f97556387766ad3296ea216a9f9a9419b43a3",
+    "results/figures/F02.png": "83cd04f63fac0914fd0e7040a6f77d8c3d2c2aac66f24e904fc0dbc8905a4049",
+    "results/figures/F02.svg": "e00b3bf2944f22aca2cf620fa13a7eef5d9d783829db66627e67056645d60f07",
+    "results/figures/F03.pdf": "ea6c99ac72e50850a2e2d4651ac92896d6eb77013cfd09c7cc2953a315ee85c1",
+    "results/figures/F03.png": "18a13bbf9278bcf6f6c14c7c141a441ac3e8bd186c558653deb69e5bdc4b9bcc",
+    "results/figures/F03.svg": "513335f10cc57a5da42296085151bedb6dfe3eb47f68c0e1c2116d8330d8ca8d",
+    "results/figures/F04.pdf": "9655310c4de07befb00e64c711fc9a79f880be44ef2e8fa9164a2bd17e8b533a",
+    "results/figures/F04.png": "7e68f0a9e998877a0b62eca40f0092a3034b235177a7a554b0ab5a3bc6954e7f",
+    "results/figures/F04.svg": "06057af97e31e68b273aa25cb8c449418b1701636a77d4fb6d7ced4a15674b2c",
+    "results/figures/F05.pdf": "83f34771c4c14e8f0ee3e1e096cdee1e3ec3a9808295acb0b81fa054d25360e4",
+    "results/figures/F05.png": "9cc393aea76feb76a518712aec476a0baba38fb326aa812057ce5e79229f6890",
+    "results/figures/F05.svg": "1c571adf0270f00df40f578db3a833112881219b85d52035bc04175805278699",
+    "results/figures/F06.pdf": "d1db4cf5861d51c9d6e5c1571dad5a9f309dc66cc4defd36aa3d0eb31b948ef4",
+    "results/figures/F06.png": "2ab2e42a5eb705caeef1cb25087b2b62fdd85cceccfb130322f588d2545e9e40",
+    "results/figures/F06.svg": "8b015a9f23a3b093003a3fcce151f6704b510c515dcd5634fbc180d645db7964",
+    "results/figures/F07.pdf": "3503ec471f67a8cb4235d0449e45e6c7c5a2cd02178a42cf9fa66477ac3bc945",
+    "results/figures/F07.png": "f8766ce2c1352c1b52bd4feb929c4ecc37fb1811d7471bf5b3db9c80f8387024",
+    "results/figures/F07.svg": "712d0bdf924962964b2e928abb5306cee3a5b6b0fb8c8b674fb7f94b02380625",
+    "results/figures/F08.pdf": "7ce86399081c3fe1f041c0519d2e54e656bb9cdd414d07376084611c697e482e",
+    "results/figures/F08.png": "2fd6cae66cf66397514387c490c532bdf8f15f87bbcde251bdc46025028ed215",
+    "results/figures/F08.svg": "5e9353c1fee3512390349cd90fcbf78f3b28d9807f300ec812dcd6d0ded84ef7",
+    "results/figures/F09.pdf": "02d32f87e79e296985ff75f388e0992ad9266b5218e09f7c6d55cb2ee965c5a7",
+    "results/figures/F09.png": "9576be7eaedb4744c5309fa6a861f0e4f46a5f212c605431ebefbd099803f0a1",
+    "results/figures/F09.svg": "9c26828f66c4fbad5ce6ad1fb8a331efed11282d715fc7c52cfb5949047c57b9",
+    "results/figures/F10.pdf": "5fa3e5d50895bc9e6010a93b50a773b0e9417384f39bd2de0cea9a2a23ab59d8",
+    "results/figures/F10.png": "4d5f8d62d81194c2a8200ed2f0df821e983f3b74249ba45afcd47967b99eaf29",
+    "results/figures/F10.svg": "16bc380f343540003c162d5eb17d4329891f418dc65b51b10e706482eb77473c",
+    "results/figures/F11.pdf": "2c474c21a2bafa85d0b5e3a890cb0aed8625168cec872a9347f896227d3a340b",
+    "results/figures/F11.png": "49d37b715376192f635345815a5eaf20f95faad1e04beeb52980c29040cfc190",
+    "results/figures/F11.svg": "22ec90eb09b704a637135600dbd4e95d6cf8148761464df98d4c5a065b69579c",
+    "results/figures/F12.pdf": "2727c5aac495ef36b7bff8a7377d72fd0cc6bb5992f44b6ce47240a494751cb4",
+    "results/figures/F12.png": "8a309157a6e55a7791cf0cffe8321fc0aaab90a7f2289e883c56cc32965dfd9d",
+    "results/figures/F12.svg": "60f03e2241fd8c29a951f8a0117f90368b75ae90f6a74e73c3a3bb61a87c5cdf",
+    "results/metrics/conflicts.json": "ab1b91bebd000e6f027d8cbf3386393b0d0bca439fa73e8d9cc5e8b15480460d",
+    "results/metrics/lineage.json": "862985c13e73298ab80c5633373796c44408d54b9f44eb0668e155d283c392af",
+    "results/metrics/metrics.json": "842587e6a2e45824a9ca4c12483f9ddcd23a2f9ee5685d9704eae720b56c4c53",
+    "results/metrics/regions.json": "91fe26f0875ac32c33e034e87ed9a80c7b146f73f90dbb4e57fb8932e7d268f0",
+    "results/tables/T01.csv": "150d50058ea7a2e1f281f74a7768c4b521b5636e88d3475aa0cc69f8c9f74ac5",
+    "results/tables/T02.csv": "55191332740e6809a311d4f06459d0b6ea97a3284d2aedfe77b880883a99e837",
+    "results/tables/T03.csv": "cb1b568433859fb5fa5674efd807140ac39c334eaa90a8b3a20e3fe8a8e7fa81",
+    "results/tables/T04.csv": "e475e3ce0e201f48e542666e88063932e01ad9443c987df7826b6d8e393530bd",
+    "results/tables/T05.csv": "d4c0bdd74b20bd9da6522085336ddc694d3ebaf1f2796bdc446eb6c7933fb714",
+    "results/tables/T06.csv": "6d30155136a30d0c26dc37bfc0a22ff92bd2ef367d2ab36c98fa533dcaaba2c1",
+    "results/tables/T07.csv": "acff1431f5d5b7a04a58a30a898c5ba7e143a3c35c1860e71fc797cbe2c90844",
+    "results/tables/T08.csv": "ec798cf180db10f7a9969ab6d50870e480570fa699be2fc4eca51db1b0eba2fa"
+  }
+}

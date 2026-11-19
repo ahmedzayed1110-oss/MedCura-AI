@@ -1,0 +1,2449 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "MedCura AI local prototype",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "localSession": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "mc"
+      }
+    }
+  },
+  "paths": {
+    "/health": {
+      "get": {
+        "summary": "Local process readiness",
+        "operationId": "get_health",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/login": {
+      "post": {
+        "summary": "Start an eight-hour local session",
+        "operationId": "post_api_login",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "username": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string",
+                    "format": "password"
+                  },
+                  "ticket": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/logout": {
+      "post": {
+        "summary": "End the active session",
+        "operationId": "post_api_logout",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/session": {
+      "get": {
+        "summary": "Authenticated account",
+        "operationId": "get_api_session",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/state": {
+      "get": {
+        "summary": "Branch dashboard",
+        "operationId": "get_api_state",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/market/regions": {
+      "get": {
+        "summary": "Sourced regional records",
+        "operationId": "get_api_market_regions",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/market/pareto": {
+      "get": {
+        "summary": "Ranked footprint and cumulative share",
+        "operationId": "get_api_market_pareto",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/market/metrics": {
+      "get": {
+        "summary": "All executive indicators",
+        "operationId": "get_api_market_metrics",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/market/metrics/{id}": {
+      "get": {
+        "summary": "Indicator provenance",
+        "operationId": "get_api_market_metrics_id",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/sources": {
+      "get": {
+        "summary": "Input manifest and workbook metadata",
+        "operationId": "get_api_sources",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/evidence/conflicts": {
+      "get": {
+        "summary": "Source discrepancies",
+        "operationId": "get_api_evidence_conflicts",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/evidence/lineage": {
+      "get": {
+        "summary": "All field lineages",
+        "operationId": "get_api_evidence_lineage",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/evidence/lineage/{id}": {
+      "get": {
+        "summary": "Cell-level metric lineage",
+        "operationId": "get_api_evidence_lineage_id",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
+    },
+    "/api/competitors": {
+      "get": {
+        "summary": "Vendor evidence",
+        "operationId": "get_api_competitors",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/branches": {
+      "get": {
+        "summary": "Assigned branch registry",
+        "operationId": "get_api_branches",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/skus": {
+      "get": {
+        "summary": "Catalog",
+        "operationId": "get_api_skus",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      },
+      "post": {
+        "summary": "Create or revise catalog item",
+        "operationId": "post_api_skus",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "boolean"
+                  },
+                  "pack": {
+                    "type": "integer"
+                  },
+                  "cost_minor": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "unit",
+                  "expiry",
+                  "pack",
+                  "cost_minor"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/lots": {
+      "get": {
+        "summary": "Lot registry and balances",
+        "operationId": "get_api_lots",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/inventory/balances": {
+      "get": {
+        "summary": "Physical and available stock",
+        "operationId": "get_api_inventory_balances",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/ledger": {
+      "get": {
+        "summary": "Immutable activity log",
+        "operationId": "get_api_ledger",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/alerts": {
+      "get": {
+        "summary": "Near-expiry lot alerts",
+        "operationId": "get_api_alerts",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/audit": {
+      "get": {
+        "summary": "Mutation fingerprints and actors",
+        "operationId": "get_api_audit",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/transfers": {
+      "get": {
+        "summary": "Transfer register",
+        "operationId": "get_api_transfers",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      },
+      "post": {
+        "summary": "Draft or advance transfer state",
+        "operationId": "post_api_transfers",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "action": {
+                    "enum": [
+                      "draft",
+                      "request",
+                      "approve",
+                      "reject",
+                      "dispatch",
+                      "receive",
+                      "cancel"
+                    ]
+                  },
+                  "id": {
+                    "type": "string"
+                  },
+                  "lot": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "destination": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "days": {
+                    "type": "integer"
+                  },
+                  "freight": {
+                    "type": "integer"
+                  },
+                  "arrival_day": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "action"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/presentation": {
+      "get": {
+        "summary": "Deck narrative",
+        "operationId": "get_api_presentation",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/scenarios": {
+      "get": {
+        "summary": "Presets and saved scenarios",
+        "operationId": "get_api_scenarios",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      },
+      "post": {
+        "summary": "Save scenario assumptions and projections",
+        "operationId": "post_api_scenarios",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "assumptions": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "name",
+                  "assumptions"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/pilot/report": {
+      "get": {
+        "summary": "Measurement report and eligibility",
+        "operationId": "get_api_pilot_report",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/pilot/measurements": {
+      "get": {
+        "summary": "Authorized field evidence register",
+        "operationId": "get_api_pilot_measurements",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      },
+      "post": {
+        "summary": "Validate a capped CSV or import authorized field evidence",
+        "operationId": "post_api_pilot_measurements",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "filename": {
+                    "type": "string"
+                  },
+                  "csv": {
+                    "type": "string"
+                  },
+                  "mode": {
+                    "enum": [
+                      "validate",
+                      "import"
+                    ]
+                  },
+                  "reference": {
+                    "type": "string"
+                  },
+                  "attest_actual": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "filename",
+                  "csv",
+                  "mode"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/pilot/protocol": {
+      "get": {
+        "summary": "Registered study design",
+        "operationId": "get_api_pilot_protocol",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      },
+      "post": {
+        "summary": "Register site, SKU sample, windows and thresholds",
+        "operationId": "post_api_pilot_protocol",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {}
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/pilot/template": {
+      "get": {
+        "summary": "CSV columns and template",
+        "operationId": "get_api_pilot_template",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/exports/market.csv": {
+      "get": {
+        "summary": "Regional CSV",
+        "operationId": "get_api_exports_market_csv",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/exports/ledger.csv": {
+      "get": {
+        "summary": "Ledger CSV",
+        "operationId": "get_api_exports_ledger_csv",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/exports/conflicts.csv": {
+      "get": {
+        "summary": "Source conflict CSV",
+        "operationId": "get_api_exports_conflicts_csv",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        }
+      }
+    },
+    "/api/inventory/receive": {
+      "post": {
+        "summary": "Record receive in integer base units",
+        "operationId": "post_api_inventory_receive",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "enum": [
+                      "base",
+                      "pack"
+                    ]
+                  },
+                  "lot": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "string"
+                  },
+                  "quarantine": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "qty",
+                  "reason"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/inventory/return": {
+      "post": {
+        "summary": "Record return in integer base units",
+        "operationId": "post_api_inventory_return",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "enum": [
+                      "base",
+                      "pack"
+                    ]
+                  },
+                  "lot": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "string"
+                  },
+                  "quarantine": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "qty",
+                  "reason"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/inventory/issue": {
+      "post": {
+        "summary": "Record issue in integer base units",
+        "operationId": "post_api_inventory_issue",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "enum": [
+                      "base",
+                      "pack"
+                    ]
+                  },
+                  "lot": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "string"
+                  },
+                  "quarantine": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "qty",
+                  "reason"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/inventory/adjust": {
+      "post": {
+        "summary": "Record adjust in integer base units",
+        "operationId": "post_api_inventory_adjust",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "enum": [
+                      "base",
+                      "pack"
+                    ]
+                  },
+                  "lot": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "string"
+                  },
+                  "quarantine": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "qty",
+                  "reason"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/inventory/count": {
+      "post": {
+        "summary": "Record count in integer base units",
+        "operationId": "post_api_inventory_count",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "enum": [
+                      "base",
+                      "pack"
+                    ]
+                  },
+                  "lot": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "string"
+                  },
+                  "quarantine": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "qty",
+                  "reason"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/inventory/reserve": {
+      "post": {
+        "summary": "Record reserve in integer base units",
+        "operationId": "post_api_inventory_reserve",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "enum": [
+                      "base",
+                      "pack"
+                    ]
+                  },
+                  "lot": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "string"
+                  },
+                  "quarantine": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "qty",
+                  "reason"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/inventory/unreserve": {
+      "post": {
+        "summary": "Record unreserve in integer base units",
+        "operationId": "post_api_inventory_unreserve",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "qty": {
+                    "type": "integer"
+                  },
+                  "reason": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "enum": [
+                      "base",
+                      "pack"
+                    ]
+                  },
+                  "lot": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "string"
+                  },
+                  "quarantine": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "qty",
+                  "reason"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/decisions/reorder": {
+      "get": {
+        "summary": "Inspect forecast and policy",
+        "operationId": "get_api_decisions_reorder",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "parameters": [
+          {
+            "name": "branch",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "north",
+                "east"
+              ]
+            }
+          },
+          {
+            "name": "sku",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "post": {
+        "summary": "Approve current reorder run",
+        "operationId": "post_api_decisions_reorder",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "run": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "run"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/forecast/backtest": {
+      "get": {
+        "summary": "Inspect forecast and policy",
+        "operationId": "get_api_forecast_backtest",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "parameters": [
+          {
+            "name": "branch",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "north",
+                "east"
+              ]
+            }
+          },
+          {
+            "name": "sku",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "post": {
+        "summary": "Persist versioned rolling-origin evaluation",
+        "operationId": "post_api_forecast_backtest",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/policy": {
+      "get": {
+        "summary": "Inspect forecast and policy",
+        "operationId": "get_api_policy",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "parameters": [
+          {
+            "name": "branch",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "north",
+                "east"
+              ]
+            }
+          },
+          {
+            "name": "sku",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      },
+      "post": {
+        "summary": "Save lead time, review days, quantile, MOQ and capacity",
+        "operationId": "post_api_policy",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "branch": {
+                    "type": "string",
+                    "enum": [
+                      "north",
+                      "east"
+                    ]
+                  },
+                  "sku": {
+                    "type": "string"
+                  },
+                  "lead": {
+                    "type": "integer"
+                  },
+                  "review": {
+                    "type": "integer"
+                  },
+                  "service": {
+                    "type": "integer"
+                  },
+                  "moq": {
+                    "type": "integer"
+                  },
+                  "capacity": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "branch",
+                  "sku",
+                  "lead",
+                  "review",
+                  "service",
+                  "moq",
+                  "capacity"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/orders/receive": {
+      "post": {
+        "summary": "Receive an approved order into a lot",
+        "operationId": "post_api_orders_receive",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  },
+                  "expiry": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "code"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/scenarios/preview": {
+      "post": {
+        "summary": "Calculate a financial scenario",
+        "operationId": "post_api_scenarios_preview",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "assumptions": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "assumptions"
+                ]
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    },
+    "/api/pilot/review": {
+      "post": {
+        "summary": "Record follow-up governance review",
+        "operationId": "post_api_pilot_review",
+        "security": [
+          {
+            "localSession": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          },
+          "400": {
+            "description": "Validation failure or conflicting replay"
+          },
+          "401": {
+            "description": "Sign-in required"
+          },
+          "403": {
+            "description": "Role or scope denied"
+          },
+          "404": {
+            "description": "Resource unavailable"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {}
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "Idempotency-Key",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9_-]{8,100}$"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

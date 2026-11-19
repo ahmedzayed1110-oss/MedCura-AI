@@ -1,0 +1,15 @@
+services:
+  medcura:
+    build: .
+    ports:
+      - "127.0.0.1:8765:8765"
+    volumes:
+      - medcura-local:/var/lib/medcura
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8765/health', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 4
+volumes:
+  medcura-local:
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1080" height="660" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1080 660" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="medcura-title medcura-desc"><title id="medcura-title">Who holds the stock during a transfer?</title><desc id="medcura-desc">Proposals use valid, eligible lots and remaining shelf life. Approved movements preserve units once dispatch and receipt have posted.</desc>
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1080" height="660"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-660)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="1080" height="660" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,97%,95%); fill-rule: evenodd;"/>
+			<text x="48" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(0%,49%,52%); stroke:none;" transform="translate(0,1232) scale(1,-1)">MEDCURA AI   /   RESEARCH FIGURES</text>
+			<text x="857.1759999999999" y="616" style="font-family: Helvetica-Bold; font-size: 13px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1232) scale(1,-1)">F07    /    SYNTHETIC_DEMO</text>
+			<path d="M 48,599 L 1032,599 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="548" style="font-family: Times-Bold; font-size: 43px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,1096) scale(1,-1)">Who holds the stock during a transfer?</text>
+			<text x="48" y="512" style="font-family: Helvetica; font-size: 19px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,1024) scale(1,-1)">A request reserves source stock. Dispatch and receipt move the same quantity through transit.</text>
+			<path d="M 48,55 L 1032,55 Z" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="48" y="25" style="font-family: Helvetica; font-size: 15px;fill: rgb(27%,36%,41%); stroke:none;" transform="translate(0,50) scale(1,-1)">Prototype transfer design. Inspect the audit trail for the actor and time of each transition.</text>
+			<rect x="48" y="341" width="176" height="104" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="48" y="341" width="4" height="104" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="63" y="415" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,830) scale(1,-1)">Draft</text>
+			<text x="63" y="388" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,776) scale(1,-1)">No stock effect</text>
+			<path d="M 224,395 L 246,395 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="246 395, 237 399, 237 391" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<rect x="248" y="341" width="176" height="104" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<rect x="248" y="341" width="4" height="104" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="263" y="415" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,830) scale(1,-1)">Requested</text>
+			<text x="263" y="388" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,776) scale(1,-1)">Reserve origin</text>
+			<path d="M 424,395 L 446,395 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="446 395, 437 399, 437 391" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<rect x="448" y="341" width="176" height="104" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="448" y="341" width="4" height="104" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="463" y="415" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,830) scale(1,-1)">Approved</text>
+			<text x="463" y="388" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,776) scale(1,-1)">Keep reservation</text>
+			<path d="M 624,395 L 646,395 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="646 395, 637 399, 637 391" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<rect x="648" y="341" width="176" height="104" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,94%,93%); fill-rule: evenodd;"/>
+			<rect x="648" y="341" width="4" height="104" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<text x="663" y="415" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,830) scale(1,-1)">Dispatched</text>
+			<text x="663" y="388" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,776) scale(1,-1)">Move to transit</text>
+			<path d="M 824,395 L 846,395 Z" style="stroke: rgb(0%,49%,52%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="846 395, 837 399, 837 391" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(0%,49%,52%); fill-rule: evenodd;"/>
+			<rect x="848" y="341" width="176" height="104" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="848" y="341" width="4" height="104" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="863" y="415" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,830) scale(1,-1)">Received</text>
+			<text x="863" y="388" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,776) scale(1,-1)">Post destination</text>
+			<path d="M 335,341 L 335,298 Z" style="stroke: rgb(57%,35%,9%); stroke-linecap: butt; stroke-width: 2;"/>
+			<polygon points="335 298, 339 307, 331 307" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(57%,35%,9%); fill-rule: evenodd;"/>
+			<rect x="223" y="180" width="224" height="115" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="223" y="180" width="4" height="115" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="238" y="265" style="font-family: Helvetica-Bold; font-size: 20.2928870292887px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,530) scale(1,-1)">Rejected / cancelled</text>
+			<text x="238" y="238" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,476) scale(1,-1)">Release reserved units</text>
+			<text x="238" y="215" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,430) scale(1,-1)">where the transition</text>
+			<text x="238" y="192" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,384) scale(1,-1)">permits.</text>
+			<rect x="555" y="180" width="458" height="115" style="stroke: rgb(81%,85%,84%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<rect x="555" y="180" width="4" height="115" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(20%,42%,69%); fill-rule: evenodd;"/>
+			<text x="570" y="265" style="font-family: Helvetica-Bold; font-size: 22px;fill: rgb(6%,14%,24%); stroke:none;" transform="translate(0,530) scale(1,-1)">At dispatch and receipt</text>
+			<text x="570" y="238" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,476) scale(1,-1)">Recheck lot validity and permissions. Block duplicate</text>
+			<text x="570" y="215" style="font-family: Helvetica; font-size: 18px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,430) scale(1,-1)">posting. Retain the source lot identity.</text>
+			<text x="48" y="116" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,232) scale(1,-1)">Conservation check: origin physical units + in-transit units + destination physical units stays constant for a</text>
+			<text x="48" y="91" style="font-family: Helvetica; font-size: 20px;fill: rgb(12%,22%,30%); stroke:none;" transform="translate(0,182) scale(1,-1)">transfer.</text>
+		</g>
+	</g>
+</svg>

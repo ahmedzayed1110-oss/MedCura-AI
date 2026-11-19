@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="792pt" height="388.8pt" viewBox="0 0 792 388.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.8 
+L 792 388.8 
+L 792 0 
+L 0 0 
+z
+" style="fill: #fbf9f3"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 59.52672 266.545728 
+L 200.51856 266.545728 
+Q 204.60528 266.545728 204.60528 265.00608 
+L 204.60528 126.43776 
+Q 204.60528 124.898112 200.51856 124.898112 
+L 59.52672 124.898112 
+Q 55.44 124.898112 55.44 126.43776 
+L 55.44 265.00608 
+Q 55.44 266.545728 59.52672 266.545728 
+z
+" clip-path="url(#p4123d2eaa5)" style="fill: #e5efee; stroke: #087c77; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 229.80672 266.545728 
+L 370.79856 266.545728 
+Q 374.88528 266.545728 374.88528 265.00608 
+L 374.88528 126.43776 
+Q 374.88528 124.898112 370.79856 124.898112 
+L 229.80672 124.898112 
+Q 225.72 124.898112 225.72 126.43776 
+L 225.72 265.00608 
+Q 225.72 266.545728 229.80672 266.545728 
+z
+" clip-path="url(#p4123d2eaa5)" style="fill: #e5efee; stroke: #087c77; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 400.08672 266.545728 
+L 541.07856 266.545728 
+Q 545.16528 266.545728 545.16528 265.00608 
+L 545.16528 126.43776 
+Q 545.16528 124.898112 541.07856 124.898112 
+L 400.08672 124.898112 
+Q 396 124.898112 396 126.43776 
+L 396 265.00608 
+Q 396 266.545728 400.08672 266.545728 
+z
+" clip-path="url(#p4123d2eaa5)" style="fill: #e5efee; stroke: #087c77; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 570.36672 266.545728 
+L 711.35856 266.545728 
+Q 715.44528 266.545728 715.44528 265.00608 
+L 715.44528 126.43776 
+Q 715.44528 124.898112 711.35856 124.898112 
+L 570.36672 124.898112 
+Q 566.28 124.898112 566.28 126.43776 
+L 566.28 265.00608 
+Q 566.28 266.545728 570.36672 266.545728 
+z
+" clip-path="url(#p4123d2eaa5)" style="fill: #e5efee; stroke: #087c77; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172f48" x="67.70016" y="159.696997" transform="rotate(-0 67.70016 159.696997)">Position</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172f48" transform="translate(67.70016 192.296194)">Available + inbound</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172f48" transform="translate(67.70016 204.425803)">orders and transfers</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 205.922788 198.288 
+Q 215.501625 198.288 223.515213 198.288 
+" style="fill: none; stroke: #087c77; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 219.515213 196.288 
+L 223.515213 198.288 
+L 219.515213 200.288 
+" style="fill: none; stroke: #087c77; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172f48" x="237.98016" y="159.696997" transform="rotate(-0 237.98016 159.696997)">Demand</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172f48" transform="translate(237.98016 192.296194)">Lead-time demand</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172f48" transform="translate(237.98016 204.425803)">+ safety buffer</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 376.202788 198.288 
+Q 385.781625 198.288 393.795213 198.288 
+" style="fill: none; stroke: #087c77; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 389.795213 196.288 
+L 393.795213 198.288 
+L 389.795213 200.288 
+" style="fill: none; stroke: #087c77; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172f48" x="408.26016" y="159.696997" transform="rotate(-0 408.26016 159.696997)">Order size</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172f48" transform="translate(408.26016 192.296194)">Pack, minimum order</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172f48" transform="translate(408.26016 204.425803)">and capacity</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 546.482788 198.288 
+Q 556.061625 198.288 564.075213 198.288 
+" style="fill: none; stroke: #087c77; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 560.075213 196.288 
+L 564.075213 198.288 
+L 560.075213 200.288 
+" style="fill: none; stroke: #087c77; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172f48" x="578.54016" y="159.696997" transform="rotate(-0 578.54016 159.696997)">Approve</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172f48" transform="translate(578.54016 192.296194)">Human review before</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #172f48" transform="translate(578.54016 204.425803)">confirmed inbound</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #172f48" x="55.44" y="35.803275" transform="rotate(-0 55.44 35.803275)">How a reorder recommendation is built</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #486279" x="55.44" y="48.6" transform="rotate(-0 55.44 48.6)">F08  |  SYNTHETIC DATA  |  Prototype · conceptual</text>
+  </g>
+  <g id="text_11">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #486279" x="55.44" y="371.304" transform="rotate(-0 55.44 371.304)">Inventory position, lead-time demand and pack constraints inform a human-reviewed recommendation.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4123d2eaa5">
+   <rect x="55.44" y="69.984" width="681.12" height="256.608"/>
+  </clipPath>
+ </defs>
+</svg>
