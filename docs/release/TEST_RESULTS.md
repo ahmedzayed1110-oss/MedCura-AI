@@ -19,3 +19,9 @@ Fresh verification ran on Windows with CPython 3.12, Node 24 and the installed C
 
 The original delivery reported native loopback as blocked. The new release verified it independently by launching the prototype through Playwright and exercising the real HTTP API.
 
+
+## Clean Git archive
+
+**PASS**. All file hashes matched the artifact manifest. Python ran 48 tests, with 46 passes and two expected raw-source skips. All nine browser workflows passed through pipes. The complete publication pipeline regenerated from checked-in canonical tables, with restricted originals absent.
+
+A direct local clone attempt was blocked by the Windows Git shell with an access-denied error. The clean Git archive served as the equivalent content check. The first archive revealed Git newline normalization drift. The release now stages files without newline conversion and verifies byte hashes. The raw generated SVG files and preserved source retain their original formatting.

@@ -1,0 +1,1 @@
+Reproduced 13 regions; 12 figures; eight tables; five baselines.
